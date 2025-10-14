@@ -44,24 +44,11 @@ Physical activity categories (past year):
 
 # Brief description of folder and file contents
 
-TODO: As project evolves, add brief description of what is inside the data, doc and R folders.
-
 The following folders contain:
 
 -   `data/`: Manuscript and simulated dataset to ensure that the code used in the project runs as intented
 -   `doc/`: Comments, thought, versions, images etc
 -   `R/`: Scripts used in the project
-
-# Installing project R package dependencies
-
-If dependencies have been managed by using `usethis::use_package("packagename")` through the `DESCRIPTION` file, installing dependencies is as easy as opening the `t2d_muni_activity.Rproj` file and running this command in the console:
-
-```         
-# install.packages("remotes")
-remotes::install_deps()
-```
-
-You'll need to have remotes installed for this to work.
 
 # Resource
 
