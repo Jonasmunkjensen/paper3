@@ -1,0 +1,32 @@
+---
+title: "Statistical Analysis Plan"
+author: "Jonas Munk Jensen"
+format: html
+editor: visual
+---
+
+## Intro:
+
+This is a working document, where I will continually work on the statistical analysis plan. In this document I will note all decitions that are being made, work on scripts and write out the analysisplan
+
+### Mapping
+
+
+#### Creating exposure variables
+
+```{r}
+hicd <- hicd_map
+# Has your healthcare provider, within the past 5 years, referred you to a consultation or a programme run by the municipality?
+re
+```
+
+
+## Plan
+My initial thought is to create a simulated/mock dataset 
+
+```{r}
+# Setting the random seed
+set.seed(987654321)
+rpois(5, 10)
+```
+
