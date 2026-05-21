@@ -1,32 +1,212 @@
 ---
-title: "Statistical Analysis Plan"
+title: "Municipal Services and Physical Activity in Type 2 Diabetes"
 author: "Jonas Munk Jensen"
+date: 20-05-2026
 format: html
 editor: visual
 ---
 
-## Intro:
+# TODO
 
-This is a working document, where I will continually work on the statistical analysis plan. In this document I will note all decitions that are being made, work on scripts and write out the analysisplan
+-   Make a bibtex for references
 
-### Mapping
+# 1 Introduction
+## Challenges regarding use of municipal services
+## How the project will contribute to solving the challenges
+## Novelty of the project
+## Expected impact
+
+# 2 HICD data
+
+# 3 WP0 Components
+
+WP0 consists of three research components:
+
+1.  A mapping component investigating the proportion of individuals with type 2 diabetes who have received municipal health services.
+
+2.  A comparative component examining differences between participants and non-participants in municipal programs with regard to health literacy, mental health, quality of life, sociodemographic characteristics, and clinical outcomes.
+
+3.  An attrition analysis evaluating potential selection bias by comparing respondents to the supplementary survey with the overall Health in Central Denmark population.
+
+## 3.1 Mapping
+
+### Objective
+To quantify the proportion of individuals with type 2 diabetes who have been in contact with municipal health services, based on data from the supplementary Health in Central Denmark (HICD) survey conducted in autumn 2024.
+
+### A priori hypothesis
+We hypothesise that the proportion of participants reporting contact with municipal health services will be comparable to previous survey findings, where approximately 20% reported having been referred to municipal services and a similar proportion indicated unmet needs (INSERT REFERENCE: Diabetesforeningen). Furthermore, we hypothesise that the majority of respondents will report no perceived need for municipal health services.
+
+### Study population
+The study population comprises adults aged 18–75 years with type 2 diabetes who completed the supplementary HICD questionnaire in 2024 ($n = 4,704$).
+
+### Operationalisation of municipal health services
+Exposure to municipal health services will be defined based on self-reported responses to the following items, all referring to the past five years:
+
+-   **Referral from general practitioner:** "Has your healthcare provider referred you to a consultation or program in the municipality within the past 5 years?"
+-   **Diet counselling:** "Within the past 5 years, have you been offered support to change dietary habits by the municipality?"
+-   **Physical activity/exercise programme:** "Within the past 5 years, have you been offered support for physical activity and/or exercise by the municipality?"
+-   **Diabetes self-management programme:** "Within the past 5 years, have you been offered support for managing your diabetes treatment by the municipality?"
+-   **Mental health support:** "Within the past 5 years, have you been offered support for managing the psychological aspects of living with diabetes by the municipality?"
+
+For each item, respondents will be categorised using the following response options:
+
+-   Yes, and I accepted the offer\
+-   Yes, but I did not accept the offer\
+-   No, but I contacted the municipality myself\
+-   No, but I would have liked the offer\
+-   No, I do not need it\
+-   Not relevant\
+-   Don't know
+
+### Statistical analysis
+Descriptive statistics will be used to summarise the data. For each municipal service item, the number and proportion (n, %) of respondents in each response category will be reported.
+
+Results will be presented in tables, including overall distributions as well as stratified analyses by sex, employment status, and age group ($<65$ years vs. $\geq 65$ years).
+
+**Example of table structure**
+
+| Exercise programme                          | N   | Percentage (%) |
+|---------------------------------------------|-----|----------------|
+| Yes, and I accepted the offer               |     |                |
+| Yes, but I did not accept the offer         |     |                |
+| No, but I contacted the municipality myself |     |                |
+| No, but I would have liked the offer        |     |                |
+| No, I do not need it                        |     |                |
+| Not relevant                                |     |                |
+| Don't know                                  |     |                |
+| Missing                                     |     |                |
+| Total                                       |     |                |
+
+## 3.2 Comparison of DSMP participants vs. non-participants
+
+### Study design  
+Cross-sectional observational study based on survey data linked with register-based information.  
+
+This component will be conducted as a comparative analysis of baseline characteristics between exposure groups, without assumptions of causality.
+
+### Objective  
+To describe and compare demographic, socioeconomic, clinical, and psychosocial characteristics between individuals who have participated in municipal Diabetes Self-Management Programs (DSMPs) and those who have not participated.
+
+### Exposure definition  
+The primary exposure is self-reported participation in a municipal DSMP.
+
+Participation is defined as having attended a municipal DSMP within the past five years, either through referral by a general practitioner or self-referral.
+
+Non-participation is defined as not having participated in a municipal DSMP within the past five years, regardless of whether the individual would have liked the offer.
+
+Respondents answering "Don't know" will be excluded from the analyses.
+
+Response categories and coding:
+
+| Response category                                | Coding   |
+|--------------------------------------------------|----------|
+| Yes, and I accepted the offer                    | 1        |
+| Yes, but I did not accept the offer              | 0        |
+| No, but I would have liked the offer             | 0        |
+| No, but I have contacted the municipality myself | 1        |
+| No, I do not need it                             | 0        |
+| Not relevant                                     | 0        |
+| Don't know                                       | Excluded |
+
+An alternative exposure definition based solely on **Yes, but I did not accept the offer** will be explored in sensitivity analyses.
+
+### Outcome measures  
+
+Outcomes include self-reported and register-based measures spanning clinical, behavioral, psychosocial, and socioeconomic domains.
+
+**Self-reported measures (HICD):**
+- Body mass index (BMI)  
+- Smoking status  
+- Physical activity level  
+- Diabetes duration  
+- Personality traits  
+- WHO-5 Well-Being Index  
+- Health Literacy Questionnaire (HLQ)  
+- Problem Areas in Diabetes (PAID) scale  
+- SF-12 (or SF-1 in sensitivity analyses)  
+- Perceived disease burden  
+
+Where relevant, validated scoring procedures will be applied according to instrument-specific guidelines.
+
+**Register-based measures (Statistics Denmark):**
+- HbA1c  
+- Total cholesterol  
+- Comorbidity: Nordic Multimorbidity Index (NMI)  
+- Socioeconomic indicators:
+  - Highest attained educational level (short, medium, long)  
+  - Equivalized disposable household income (quintiles)  
+  - Cohabitation/marital status (cohabiting/married vs. living alone)  
+- Country of origin (Danish, immigrant, descendant)  
+
+### Covariates  
+- Age  
+- Sex (male, female)  
+
+Age will additionally be explored in categorical and continuous form in sensitivity analyses to assess potential non-linear associations.
+
+### Statistical analysis  
+Descriptive statistics will be used to characterise the study population across exposure groups.
+
+Continuous variables will be presented as mean (SD) or median (IQR) depending on distribution, and categorical variables as frequencies and percentages.
+
+Outcome variables from the questionnaire will be dichotomised into high and low scores. In cases where internationally recognised cut-off values are not available, cohort-specific medians will be used as the threshold for classification.
+
+Group comparisons according to participation status will be summarised in tabular form. Both crude and adjusted prevalence ratios will be reported for WHO-5, SF-12, HLQ, and PAID, with outcomes dichotomised into high versus low scores. Adjusted estimates will be derived using modified Poisson regression, accounting for age, sex, socioeconomic position, and comorbidity measured by the Nordic Multimorbidity Index (NMI).
+
+Differences in categorical outcomes between expesed and non-exposed will be evaluated using chi-squared tests.
+
+The NMI will initially be modelled as a continuous variable. Its functional form will be examined using natural cubic splines, and if deviations from linearity are identified, spline terms will be incorporated into the final models.
+
+All analyses will be performed in R, and results will be reported with corresponding 95% confidence intervals.
+
+## 3.3 Attrition analysis
+
+### Study design  
+Cross-sectional attrition analysis based on linked survey and register data.
+
+### Objective  
+
+In 2024, $n = \_\_\_\_$ individuals completed the HICD questionnaire. Of these, $\_\_\_\_$ consented to receive a supplementary questionnaire containing questions related to participation in municipal health services. Among those invited, $n = 4,704$ completed the supplementary questionnaire.
+
+The objective of the attrition analysis is to assess potential selection bias by comparing respondents to the supplementary questionnaire with the overall population of individuals with type 2 diabetes included in the HICD cohort.
+
+### Study population  
+
+The source population will consist of all individuals with type 2 diabetes included in the HICD who completed the 2024 questionnaire.
+
+The target group will be defined as individuals who completed the supplementary questionnaire in 2024 ($n = 4,704$).
+
+The comparison group (background group) will be defined as individuals who either completed the 2024 HICD questionnaire but did not consent to receive the supplementary questionnaire, or who provided consent but did not complete the supplementary questionnaire during the data collection period.
+
+### Variables included in the attrition analysis  
+
+The following variables will be used to compare respondents and non-respondents:
+
+**Demographic variables**
+- Age  
+- Sex  
+- Country of origin  
+
+**Socioeconomic variables**
+- Highest attained educational level  
+- Equivalized disposable household income  
+- Cohabitation/marital status  
+
+**Clinical variables**
+- Diabetes duration  
+- HbA1c  
+- Cholesterol  
+- Comorbidity measured using the Nordic Multimorbidity Index (NMI)  
+
+Register-based variables will be prioritised to minimise the influence of missing self-reported data.
+
+### Statistical analysis  
+
+The statistical analysis will be caried out in the same manor as the comparison of DSMP participation and non-participation. 
 
 
-#### Creating exposure variables
+# 4 Time scale
 
-```{r}
-hicd <- hicd_map
-# Has your healthcare provider, within the past 5 years, referred you to a consultation or a programme run by the municipality?
-re
-```
+# 5 Perspectives
 
-
-## Plan
-My initial thought is to create a simulated/mock dataset 
-
-```{r}
-# Setting the random seed
-set.seed(987654321)
-rpois(5, 10)
-```
-
+# 6 References
