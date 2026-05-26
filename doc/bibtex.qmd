@@ -1,0 +1,36 @@
+---
+title: "Reference list for Statistical Analysis Plan"
+format: html
+bibliography: references.bib
+csl: apa.csl   # optional
+---
+
+## Diabetes prevelence  
+
+@misc{diabetestal,
+  author       = {{Diabetesforeningen}},
+  title        = {Search},
+  year         = {n.d.},
+  url          = {https://www.diabetestal.nu/search},
+  note         = {Accessed: 2026-05-26}
+}
+
+@article{carstensen2020,
+  author  = {Carstensen, B. et al.},
+  title   = {Components of diabetes prevalence in Denmark 1996--2016 and future trends until 2030},
+  journal = {BMJ Open Diabetes Research & Care},
+  year    = {2020}
+}
+
+## Risk factors
+
+### Cancer
+@article{laurberg2024,
+  author  = {Laurberg, T. et al.},
+  title   = {Trends in cause-specific mortality among people with type 2 and type 1 diabetes from 2002 to 2019: a Danish population-based study},
+  journal = {The Lancet Regional Health -- Europe},
+  year    = {2024},
+  doi     = {10.1016/j.lanepe.2024.100909},
+  pmid    = {38707867},
+  pmcid   = {PMC11066523}
+}
