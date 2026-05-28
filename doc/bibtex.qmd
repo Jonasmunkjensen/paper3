@@ -24,7 +24,40 @@ csl: apa.csl   # optional
 
 ## Risk factors
 
+### Global burden an complications
+
+@article{GBD2023,
+  author    = {{GBD 2021 Diabetes Collaborators}},
+  title     = {Global, regional, and national burden of diabetes from 1990 to 2021, with projections of prevalence to 2050: a systematic analysis for the Global Burden of Disease Study 2021},
+  journal   = {The Lancet},
+  year      = {2023},
+  volume    = {402},
+  number    = {10397},
+  pages     = {203--234},
+  doi       = {10.1016/S0140-6736(23)01301-6},
+  pmid      = {37356446},
+  pmcid     = {PMC10364581},
+  url       = {https://doi.org/10.1016/S0140-6736(23)01301-6}
+}
+
+### Cardiovascular disease in T2D
+
+@article{Einarson2018,
+  author    = {Einarson, Thomas R. and Acs, Alexandra and Ludwig, Christian and Panton, Ulrik H.},
+  title     = {Prevalence of cardiovascular disease in type 2 diabetes: a systematic literature review of scientific evidence from across the world in 2007--2017},
+  journal   = {Cardiovascular Diabetology},
+  year      = {2018},
+  volume    = {17},
+  number    = {1},
+  pages     = {83},
+  doi       = {10.1186/s12933-018-0728-6},
+  pmid      = {29884191},
+  pmcid     = {PMC5994068},
+  url       = {https://doi.org/10.1186/s12933-018-0728-6}
+}
+
 ### Cancer
+
 @article{laurberg2024,
   author  = {Laurberg, T. et al.},
   title   = {Trends in cause-specific mortality among people with type 2 and type 1 diabetes from 2002 to 2019: a Danish population-based study},
@@ -33,4 +66,64 @@ csl: apa.csl   # optional
   doi     = {10.1016/j.lanepe.2024.100909},
   pmid    = {38707867},
   pmcid   = {PMC11066523}
+}
+
+### Diabetes-specific emotional destress
+
+@article{Perrin2017,
+  author    = {Perrin, Neil E. and Davies, Melanie J. and Robertson, Nicola and Snoek, Frank J. and Khunti, Kamlesh},
+  title     = {The prevalence of diabetes-specific emotional distress in people with Type 2 diabetes: a systematic review and meta-analysis},
+  journal   = {Diabetic Medicine},
+  year      = {2017},
+  volume    = {34},
+  number    = {11},
+  pages     = {1508--1520},
+  doi       = {10.1111/dme.13448},
+  pmid      = {28799294},
+  url       = {https://doi.org/10.1111/dme.13448}
+}
+
+### Quality of life and self-management burden
+
+@article{Bailey2011,
+  author    = {Bailey, Clifford J. and Kodack, Maria},
+  title     = {Patient adherence to medication requirements for therapy of type 2 diabetes},
+  journal   = {International Journal of Clinical Practice},
+  year      = {2011},
+  volume    = {65},
+  number    = {3},
+  pages     = {314--322},
+  doi       = {10.1111/j.1742-1241.2010.02544.x},
+  pmid      = {21314869},
+  url       = {https://doi.org/10.1111/j.1742-1241.2010.02544.x}
+}
+
+### psychosocial burden
+
+@article{ADA2025Standards,
+  author    = {{American Diabetes Association Professional Practice Committee}},
+  title     = {Summary of Revisions: Standards of Care in Diabetes—2025},
+  journal   = {Diabetes Care},
+  year      = {2025},
+  volume    = {48},
+  number    = {Supplement\_1},
+  pages     = {S6--S13},
+  doi       = {10.2337/dc25-SREV},
+  url       = {https://doi.org/10.2337/dc25-SREV}
+}
+
+### Psychosocial factors and self-care behavior
+
+@article{Gonzalez2008,
+  author    = {Gonzalez, J. S. and Peyrot, M. and McCarl, L. A. and Collins, E. M. and Serpa, L. and Mimiaga, M. J. and Safren, S. A.},
+  title     = {Depression and diabetes treatment nonadherence: a meta-analysis},
+  journal   = {Diabetes Care},
+  year      = {2008},
+  volume    = {31},
+  number    = {12},
+  pages     = {2398--2403},
+  doi       = {10.2337/dc08-1341},
+  pmid      = {19033420},
+  pmcid     = {PMC2584202},
+  url       = {https://doi.org/10.2337/dc08-1341}
 }
