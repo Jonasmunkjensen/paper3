@@ -127,3 +127,153 @@ csl: apa.csl   # optional
   pmcid     = {PMC2584202},
   url       = {https://doi.org/10.2337/dc08-1341}
 }
+
+## DSMP and exercise
+
+@article{MarkleReid2018,
+  author  = {Markle-Reid, Maureen and others},
+  title   = {Community Program Improves Quality of Life and Self-Management in Older Adults with Diabetes Mellitus and Comorbidity},
+  journal = {Journal of the American Geriatrics Society},
+  year    = {2018},
+  volume  = {66},
+  number  = {2},
+  pages   = {263--273}
+}
+
+@article{Miklavcic2020,
+  author  = {Miklavcic, J. J. and others},
+  title   = {Effectiveness of a community program for older adults with type 2 diabetes and multimorbidity: a pragmatic randomized controlled trial},
+  journal = {BMC Geriatrics},
+  year    = {2020},
+  volume  = {20},
+  number  = {1},
+  pages   = {174}
+}
+
+@article{Kanaley2022,
+  author  = {Kanaley, Jill A. and others},
+  title   = {Exercise/Physical Activity in Individuals with Type 2 Diabetes: A Consensus Statement from the American College of Sports Medicine},
+  journal = {Medicine and Science in Sports and Exercise},
+  year    = {2022},
+  volume  = {54},
+  number  = {2},
+  pages   = {353--368}
+}
+
+@article{Steinsbekk2012,
+  author  = {Steinsbekk, Aslak and others},
+  title   = {Group based diabetes self-management education compared to routine treatment for people with type 2 diabetes mellitus: A systematic review with meta-analysis},
+  journal = {BMC Health Services Research},
+  year    = {2012},
+  volume  = {12},
+  pages   = {213}
+}
+
+@article{Murphy2017,
+  author  = {Murphy, M. E. and others},
+  title   = {Improving risk factor management for patients with poorly controlled type 2 diabetes: a systematic review of healthcare interventions in primary care and community settings},
+  journal = {BMJ Open},
+  year    = {2017},
+  volume  = {7},
+  number  = {8},
+  pages   = {e015135}
+}
+
+@article{Johansen2017,
+  author  = {Johansen, M. Y. and others},
+  title   = {Effect of an Intensive Lifestyle Intervention on Glycemic Control in Patients With Type 2 Diabetes: A Randomized Clinical Trial},
+  journal = {JAMA},
+  year    = {2017},
+  volume  = {318},
+  number  = {7},
+  pages   = {637--646}
+}
+
+@article{Umpierre2013,
+  author  = {Umpierre, Daniel and others},
+  title   = {Volume of supervised exercise training impacts glycaemic control in patients with type 2 diabetes: a meta-regression analysis},
+  journal = {Diabetologia},
+  year    = {2013},
+  volume  = {56},
+  number  = {2},
+  pages   = {242--251}
+}
+
+@article{Colberg2016,
+  author  = {Colberg, Sheri R. and others},
+  title   = {Physical Activity/Exercise and Diabetes: A Position Statement of the American Diabetes Association},
+  journal = {Diabetes Care},
+  year    = {2016},
+  volume  = {39},
+  number  = {11},
+  pages   = {2065--2079}
+}
+
+@article{OHagan2013,
+  author  = {O'Hagan, C. and De Vito, G. and Boreham, C. A.},
+  title   = {Exercise prescription in the treatment of type 2 diabetes mellitus: current practices, existing guidelines and future directions},
+  journal = {Sports Medicine},
+  year    = {2013},
+  volume  = {43},
+  number  = {1},
+  pages   = {39--49}
+}
+
+@article{DeNardi2018,
+  author  = {De Nardi, A. T. and others},
+  title   = {High-intensity interval training versus continuous training on physiological and metabolic variables in prediabetes and type 2 diabetes: A meta-analysis},
+  journal = {Diabetes Research and Clinical Practice},
+  year    = {2018},
+  volume  = {137},
+  pages   = {149--159}
+}
+
+@article{Ryan2020,
+  author  = {Ryan, B. J. and others},
+  title   = {Moderate-Intensity Exercise and High-Intensity Interval Training Affect Insulin Sensitivity Similarly in Obese Adults},
+  journal = {Journal of Clinical Endocrinology & Metabolism},
+  year    = {2020},
+  volume  = {105},
+  number  = {8},
+  pages   = {e2941--e2959}
+}
+
+## Sundhedsreform
+
+@report{Sundhedsreform2024,
+  author      = {{Indenrigs- og Sundhedsministeriet}},
+  title       = {Aftale om sundhedsreform 2024},
+  year        = {2024},
+  month       = oct,
+  address     = {Slotsholmsgade 10-12, 1216 København K},
+  institution = {Indenrigs- og Sundhedsministeriet},
+  url         = {https://www.sum.dk},
+  note        = {Publikation kan hentes på www.sum.dk. ISBN 978-87-7601-432-2 (digital version)}
+}
+
+## Diabetesforeningen: 
+
+@report{Diabetesforeningen2023,
+  author      = {{Diabetesforeningen}},
+  title       = {Livet med diabetes 2023},
+  year        = {2023},
+  month       = jul,
+  version     = {1},
+  address     = {Stationsparken 24 st. tv., 2600 Glostrup},
+  institution = {Diabetesforeningen, Forskning og Analyse},
+  url         = {https://diabetes.dk/forskning/for-fagfolk/projekter-og-undersogelser},
+}
+
+## LIVING protocol
+
+@article{Jensen2025,
+  author  = {Jensen, J. M. and S{\o}rensen, K. V. and St{\o}vring, H. and Andersen, A.},
+  title   = {LIVING - protocol for a pragmatic randomized controlled trial investigating the effect of three different levels of diabetes self-management programs},
+  journal = {Contemporary Clinical Trials},
+  year    = {2025},
+  volume  = {153},
+  pages   = {107891},
+  doi     = {10.1016/j.cct.2025.107891},
+  pmid    = {40164303},
+  url     = {https://doi.org/10.1016/j.cct.2025.107891}
+}

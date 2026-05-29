@@ -6,10 +6,6 @@ format: html
 editor: visual
 ---
 
-# TODO
-
--   Make a bibtex for references
-
 # 1 Introduction
 
 ## Challenges regarding use of municipal services
@@ -20,21 +16,21 @@ Type 2 diabetes is associated with substantial morbidity and premature mortality
 
 Beyond its physical health consequences, type 2 diabetes is associated with substantial psychosocial burden, including diabetes-related emotional distress, reduced quality of life, and the ongoing demands of complex self-management [@perrin2017; @bailey2011; @ADA2025Standards]. These factors are well documented as barriers to treatment adherence and effective self-care, and are associated with suboptimal engagement in healthcare and poorer health outcomes [@gonzalez2008].
 
-Diabetes self-management programmes (DSMPs) are considered a central component of type 2 diabetes care, as they aim to support individuals in managing their disease in everyday life through education, behavioral support, and lifestyle interventions. In Denmark, responsibility for DSMPs lies within the regional healthcare system, while programme delivery is primarily undertaken by the municipalities. The recent Danish healthcare reform aims to create more uniform and accessible DSMPs across the country. However, despite their widespread implementation, relatively little is known about the effectiveness of municipality-based DSMPs in Denmark.
+Diabetes self-management programmes (DSMPs) are considered a central component of type 2 diabetes care, as they aim to support individuals in managing their disease in everyday life through education, behavioral support, and lifestyle interventions . In Denmark, responsibility for DSMPs lies within the regional healthcare system, while programme delivery is primarily undertaken by the municipalities [@MarkleReid2018; @Miklavcic2020; @Kanaley2022; @Steinsbekk2012; @Murphy2017; @Johansen2017; @Umpierre2013; @Colberg2016; @OHagan2013; @DeNardi2018; @Ryan2020]. The recent Danish healthcare reform aims to create more uniform and accessible DSMPs across the country [@Sundhedsreform2024]. However, despite their widespread implementation, relatively little is known about the effectiveness of municipality-based DSMPs in Denmark.
 
-Furthermore, there is currently no national register that systematically tracks the utilization of municipal health services. As a result, knowledge remains limited regarding how many people with type 2 diabetes make use of DSMPs and whether these services reach the individuals with the greatest need for support. In ___, Diabetesforeningen conducted a survey among its members indicating that approximately 20% reported having been referred to municipal services, while a similar proportion reported unmet support needs. However, these findings may be affected by selection bias and may not reflect utilization patterns in the broader population of people living with type 2 diabetes.
+Furthermore, there is currently no national register that systematically tracks the utilization of municipal health services. As a result, knowledge remains limited regarding how many people with type 2 diabetes make use of DSMPs and whether these services reach the individuals with the greatest need for support. In 2023, Diabetesforeningen conducted a survey among its members indicating that approximately 20% reported having been referred to municipal services, while a similar proportion reported unmet support needs [@Diabetesforeningen2023]. However, these findings may be affected by selection bias and may not reflect utilization patterns in the broader population of people living with type 2 diabetes.
 
 In addition, practical barriers may further limit participation in DSMPs. Many programmes are delivered during standard working hours, which may reduce accessibility for individuals who are still active in the workforce. This may particularly affect younger individuals diagnosed earlier in life, who may have competing work and family responsibilities.
 
 ## How the project will contribute to solving the challenges
 
-The LIVING project was launched back in 2023 to investigate the effectiveness of three different DSMPs. In addition we have form out a workpackage (WP0) within the LIVING trial, to investigate the utilization of municipal health services. 
+The LIVING project was launched back in 2023 to investigate the effectiveness of three different DSMPs [@Jensen2025]. In addition we have form out a workpackage (WP0) within the LIVING trial, to investigate the utilization of municipal health services. 
 
 The broader goal is to reduce health inequilities among people living with type 2 diabetes and make municipality based DSMPS more assesible for the people most in need. This project will give insights into who and how many make use of the services. 
 
 ## Novelty of the project
 
-Existing knowledge on utilization of municipality-based diabetes self-management programmes (DSMPs) in Denmark is limited, and most evidence is based on survey studies that do not include attrition analyses. As a result, it is generally unknown whether study samples reflect the underlying target population of people living with type 2 diabetes,
+Existing knowledge on utilization of municipality-based DSMPs in Denmark is limited, and most evidence is based on survey studies that do not include attrition analyses. As a result, it is generally unknown whether study samples reflect the underlying target population of people living with type 2 diabetes,
 
 This project addresses this limitation by explicitly assessing participation and non-participation in DSMPs using an attrition framework.
 
@@ -42,13 +38,17 @@ Self-reported measures capture health behaviors and psychosocial factors such as
 
 ## Expected impact
 
-The project is expected to strengthen knowledge regarding the utilization of municipality-based diabetes self-management programmes among people living with type 2 diabetes in Denmark. By identifying who participates in DSMPs, and who does not, the project may help inform a more equitable organization of municipal health services.
+The project is expected to strengthen knowledge regarding the utilization of municipality-based DSMPs among people living with type 2 diabetes in Denmark. By identifying who participates in DSMPs, and who does not, the project may help inform a more equitable organization of municipal health services.
 
 The findings may provide important insights into potential gaps between service availability and actual utilization, including whether current services reach population groups with the greatest need for support. In addition, the project may contribute to the development of more accessible and flexible DSMPs by identifying barriers related to participation and healthcare engagement.
 
 In the longer term, improving access to and utilization of DSMPs may contribute to better diabetes self-management, improved health outcomes, and reduced health inequities among people living with type 2 diabetes.
 
 # 2 HICD data
+
+The HICD cohort is a research initiative designed to investigate diabetes and its associated complications in the Central Denmark Region, which has a population of around 1.3 million residents. Using registry data and a predefined algorithm for diabetes classification, researchers identified individuals aged 18 to 75 years with prevalent diabetes. In addition, a control group of equal size was established, matched on sex, age, and municipality, consisting of individuals without diabetes.
+
+In 2024, $n = 56,730$ (41.6%) out of $n = 136,229$ individuals completed the HICD questionnaire. Of these, $n = ??? $ consented to receive a supplementary questionnaire focusing on participation in municipal health services. Among those invited, $n = 4,704$ completed the supplementary questionnaire.
 
 # 3 WP0 Components
 
@@ -81,7 +81,7 @@ Exposure to municipal health services will be defined based on self-reported res
 -   **Referral from general practitioner:** "Has your healthcare provider referred you to a consultation or program in the municipality within the past 5 years?"
 -   **Diet counselling:** "Within the past 5 years, have you been offered support to change dietary habits by the municipality?"
 -   **Physical activity/exercise programme:** "Within the past 5 years, have you been offered support for physical activity and/or exercise by the municipality?"
--   **Diabetes self-management programme:** "Within the past 5 years, have you been offered support for managing your diabetes treatment by the municipality?"
+-   **DSMP:** "Within the past 5 years, have you been offered support for managing your diabetes treatment by the municipality?"
 -   **Mental health support:** "Within the past 5 years, have you been offered support for managing the psychological aspects of living with diabetes by the municipality?"
 
 For each item, respondents will be categorised using the following response options:
@@ -124,7 +124,7 @@ This component will be conducted as a comparative analysis of baseline character
 
 ### Objective
 
-To describe and compare demographic, socioeconomic, clinical, and psychosocial characteristics between individuals who have participated in municipal Diabetes Self-Management Programs (DSMPs) and those who have not participated.
+To describe and compare demographic, socioeconomic, clinical, and psychosocial characteristics between individuals who have participated in municipal DSMPs and those who have not participated.
 
 ### Exposure definition
 
@@ -154,7 +154,8 @@ An alternative exposure definition based solely on **Yes, but I did not accept t
 
 Outcomes include self-reported and register-based measures spanning clinical, behavioral, psychosocial, and socioeconomic domains.
 
-**Self-reported measures (HICD):** 
+**Self-reported measures (HICD):**
+
 - Body mass index (BMI)\
 - Smoking status\
 - Physical activity level\
@@ -169,6 +170,7 @@ Outcomes include self-reported and register-based measures spanning clinical, be
 Where relevant, validated scoring procedures will be applied according to instrument-specific guidelines.
 
 **Register-based measures (Statistics Denmark):** 
+
 - HbA1c\
 - Total cholesterol\
 - Comorbidity: Nordic Multimorbidity Index (NMI)\
@@ -179,6 +181,7 @@ Where relevant, validated scoring procedures will be applied according to instru
 - Country of origin (Danish, immigrant, descendant)
 
 ### Covariates
+
 -   Age\
 -   Sex (male, female)
 
@@ -208,8 +211,6 @@ Cross-sectional attrition analysis based on linked survey and register data.
 
 ### Objective
 
-In 2024, $n = \_\_\_\_$ individuals completed the HICD questionnaire. Of these, $\_\_\_\_$ consented to receive a supplementary questionnaire containing questions related to participation in municipal health services. Among those invited, $n = 4,704$ completed the supplementary questionnaire.
-
 The objective of the attrition analysis is to assess potential selection bias by comparing respondents to the supplementary questionnaire with the overall population of individuals with type 2 diabetes included in the HICD cohort.
 
 ### Study population
@@ -238,14 +239,18 @@ The following variables will be used to compare respondents and non-respondents:
 - Cholesterol\
 - Comorbidity measured using the Nordic Multimorbidity Index (NMI)\
 
-Register-based variables will be prioritised to minimise the influence of missing self-reported data.
+Register-based variables will be prioritized to minimize the influence of missing self-reported data.
 
 ### Statistical analysis
 
-The statistical analysis will be caried out in the same manor as the comparison of DSMP participation and non-participation.
+The statistical analysis will be carried out in the same manor as the comparison of DSMP participation and non-participation.
 
 # 4 Time scale
 
 # 5 Perspectives
 
+
+
 # 6 References
+
+See bibtex.qmd
