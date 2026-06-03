@@ -1,8 +1,10 @@
 ---
 title: "Municipal Services and Physical Activity in Type 2 Diabetes"
 author: "Jonas Munk Jensen"
-date: 20-05-2026
-format: html
+date: 29-05-2026
+format: pdf
+bibliography: references.bib
+csl: apa.csl
 editor: visual
 ---
 
@@ -12,9 +14,8 @@ editor: visual
 
 The prevalence of type 2 diabetes is increasing worldwide. In Denmark, the prevalence has increased from 260.000 in 2017 to 348.000 in the end of 2025 [@diabetestal]. Projections further indicate that the prevalence of type 2 diabetes is expected to rise to 325.068 [@carstensen2020].
 
-Type 2 diabetes is associated with substantial morbidity and premature mortality, including increased risks of cardiovascular disease, chronic kidney disease, neuropathy, retinopathy, and several forms of cancer [@GBD2023; @einarson2018; @laurberg2024]. In addition to the physical health consequences, people living with type 2 diabetes frequently experience diabetes-related distress, reduced quality of life, and challenges in managing the demands of daily self-care. These psychosocial factors are well-established barriers to positive health behaviors, healthcare engagement, and long-term disease management, ultimately contributing to poorer health outcomes.
-
-Beyond its physical health consequences, type 2 diabetes is associated with substantial psychosocial burden, including diabetes-related emotional distress, reduced quality of life, and the ongoing demands of complex self-management [@perrin2017; @bailey2011; @ADA2025Standards]. These factors are well documented as barriers to treatment adherence and effective self-care, and are associated with suboptimal engagement in healthcare and poorer health outcomes [@gonzalez2008].
+Type 2 diabetes is associated with substantial morbidity and premature mortality, including increased risks of cardiovascular disease, chronic kidney disease, neuropathy, retinopathy, and several forms of cancer [@GBD2023; @Einarson2018; @laurberg2024].
+Beyond its physical health consequences, type 2 diabetes is associated with substantial psychosocial burden, including diabetes-related emotional distress, reduced quality of life, and the ongoing demands of complex self-management [@Perrin2017; @Bailey2011; @ADA2025Standards]. These factors are well documented as barriers to treatment adherence and effective self-care, and are associated with suboptimal engagement in healthcare and poorer health outcomes [@Gonzalez2008].
 
 Diabetes self-management programmes (DSMPs) are considered a central component of type 2 diabetes care, as they aim to support individuals in managing their disease in everyday life through education, behavioral support, and lifestyle interventions . In Denmark, responsibility for DSMPs lies within the regional healthcare system, while programme delivery is primarily undertaken by the municipalities [@MarkleReid2018; @Miklavcic2020; @Kanaley2022; @Steinsbekk2012; @Murphy2017; @Johansen2017; @Umpierre2013; @Colberg2016; @OHagan2013; @DeNardi2018; @Ryan2020]. The recent Danish healthcare reform aims to create more uniform and accessible DSMPs across the country [@Sundhedsreform2024]. However, despite their widespread implementation, relatively little is known about the effectiveness of municipality-based DSMPs in Denmark.
 
@@ -50,6 +51,8 @@ The HICD cohort is a research initiative designed to investigate diabetes and it
 
 In 2024, $n = 56,730$ (41.6%) out of $n = 136,229$ individuals completed the HICD questionnaire. Of these, $n = ??? $ consented to receive a supplementary questionnaire focusing on participation in municipal health services. Among those invited, $n = 4,704$ completed the supplementary questionnaire.
 
+![](flow.png)
+
 # 3 WP0 Components
 
 WP0 consists of three research components:
@@ -68,7 +71,7 @@ To quantify the proportion of individuals with type 2 diabetes who have been in 
 
 ### A priori hypothesis
 
-We hypothesise that the proportion of participants reporting contact with municipal health services will be comparable to previous survey findings, where approximately 20% reported having been referred to municipal services and a similar proportion indicated unmet needs (INSERT REFERENCE: Diabetesforeningen). Furthermore, we hypothesise that the majority of respondents will report no perceived need for municipal health services.
+We hypothesise that the proportion of participants reporting contact with municipal health services will be comparable to previous survey findings, where approximately 20% reported having been referred to municipal services and a similar proportion indicated unmet needs [@Diabetesforeningen2023]. Furthermore, we hypothesise that the majority of respondents will report no perceived need for municipal health services.
 
 ### Study population
 
@@ -86,13 +89,13 @@ Exposure to municipal health services will be defined based on self-reported res
 
 For each item, respondents will be categorised using the following response options:
 
--   Yes, and I accepted the offer\
--   Yes, but I did not accept the offer\
--   No, but I contacted the municipality myself\
--   No, but I would have liked the offer\
--   No, I do not need it\
--   Not relevant\
--   Don't know
+- Yes, and I accepted the offer
+- Yes, but I did not accept the offer
+- No, but I contacted the municipality myself
+- No, but I would have liked the offer
+- No, I do not need it
+- Not relevant
+- Don't know
 
 ### Statistical analysis
 
@@ -136,7 +139,7 @@ Non-participation is defined as not having participated in a municipal DSMP with
 
 Respondents answering "Don't know" will be excluded from the analyses.
 
-Response categories and coding:
+**Response categories and coding:**
 
 | Response category                                | Coding   |
 |--------------------------------------------------|----------|
@@ -148,7 +151,7 @@ Response categories and coding:
 | Not relevant                                     | 0        |
 | Don't know                                       | Excluded |
 
-An alternative exposure definition based solely on **Yes, but I did not accept the offer** will be explored in sensitivity analyses.
+An alternative exposure definition based solely on *Yes, but I did not accept the offer* will be explored in sensitivity analyses.
 
 ### Outcome measures
 
@@ -156,33 +159,33 @@ Outcomes include self-reported and register-based measures spanning clinical, be
 
 **Self-reported measures (HICD):**
 
-- Body mass index (BMI)\
-- Smoking status\
-- Physical activity level\
-- Diabetes duration\
-- Personality traits\
-- WHO-5 Well-Being Index\
-- Health Literacy Questionnaire (HLQ)\
-- Problem Areas in Diabetes (PAID) scale\
-- SF-12 (or SF-1 in sensitivity analyses)\
+- Body mass index (BMI)
+- Smoking status
+- Physical activity level
+- Diabetes duration
+- Personality traits
+- WHO-5 Well-Being Index
+- Health Literacy Questionnaire (HLQ)
+- Problem Areas in Diabetes (PAID) scale
+- SF-12 (or SF-1 in sensitivity analyses)
 - Perceived disease burden
 
 Where relevant, validated scoring procedures will be applied according to instrument-specific guidelines.
 
 **Register-based measures (Statistics Denmark):** 
 
-- HbA1c\
-- Total cholesterol\
-- Comorbidity: Nordic Multimorbidity Index (NMI)\
-- Socioeconomic indicators:\
-    - Highest attained educational level (short, medium, long)\
-    - Equivalized disposable household income (quintiles)\
-- Cohabitation/marital status (cohabiting/married vs. living alone)\
+- HbA1c
+- Total cholesterol
+- Comorbidity: Nordic Multimorbidity Index (NMI)
+- Socioeconomic indicators:
+    - Highest attained educational level (short, medium, long)
+    - Equivalized disposable household income (quintiles)
+- Cohabitation/marital status (cohabiting/married vs. living alone)
 - Country of origin (Danish, immigrant, descendant)
 
 ### Covariates
 
--   Age\
+-   Age
 -   Sex (male, female)
 
 Age will additionally be explored in categorical and continuous form in sensitivity analyses to assess potential non-linear associations.
@@ -215,7 +218,7 @@ The objective of the attrition analysis is to assess potential selection bias by
 
 ### Study population
 
-The target group will be defined as individuals who completed the supplementary questionnaire in 2024 ($n = 4,704$).
+The study group will be defined as individuals who completed the supplementary questionnaire in 2024 ($n = 4,704$).
 
 The comparison group (background group) will be defined as individuals who either completed the 2024 HICD questionnaire but did not consent to receive the supplementary questionnaire, or who provided consent but did not complete the supplementary questionnaire during the data collection period.
 
@@ -247,9 +250,15 @@ The statistical analysis will be carried out in the same manor as the comparison
 
 # 4 Time scale
 
+The analysis plan will be uploaded to Open Science Framework (OSF) for timestamping before beginning the analyses. The WP0 will be performed in 2026. 
+
 # 5 Perspectives
 
+This project may contribute important knowledge for future planning and prioritization of municipality-based DSMPs in Denmark. By providing population-based data on who participates in municipal services, and who does not, the project may help identify potential inequalities in access and utilization across demographic, socioeconomic, and clinical groups.
 
+The findings may support municipalities, regions, and national health authorities in evaluating whether current services adequately reach individuals with the greatest need for support. In addition, the project may provide evidence relevant to ongoing implementation of the Danish healthcare reform, including decisions regarding organisation, accessibility, and allocation of resources within municipality-based diabetes care.
+
+More broadly, the project may contribute to the development of more targeted and equitable preventive health strategies for people living with type 2 diabetes, with the potential to improve population health and reduce long-term healthcare costs.
 
 # 6 References
 
