@@ -1,0 +1,11 @@
+---
+title: "Mail til draft_2"
+format: html
+editor: visual
+---
+
+## Forklare møde med statistikker
+
+## Drøftelse om hvor detaljeret protokollen skal være. 
+
+## Nyt draft er skrevet i Quarto. 
