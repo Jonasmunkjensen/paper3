@@ -1,11 +1,198 @@
----
-title: "Mail til draft_2"
-format: html
-editor: visual
----
+## 3.1 Mapping of municipal health service utilization
 
-## Forklare møde med statistikker
+### Objective
 
-## Drøftelse om hvor detaljeret protokollen skal være. 
+To quantify the proportion of individuals with type 2 diabetes who have been in contact with municipal health services, based on data from the supplementary Health in Central Denmark (HICD) survey conducted in autumn 2024.
 
-## Nyt draft er skrevet i Quarto. 
+### A priori hypothesis
+
+We hypothesise that the proportion of participants reporting contact with municipal health services will be comparable to previous survey findings, where approximately 20% reported having been referred to municipal services and a similar proportion indicated unmet needs [@Diabetesforeningen2023]. Furthermore, we hypothesise that the majority of respondents will report no perceived need for municipal health services.
+
+### Study population
+
+The *observed analysis sample* comprises adults aged 18–75 years with type 2 diabetes who completed the supplementary HICD questionnaire in 2024 ($n = 4,704$).
+
+The *response-weighted analysis sample* represents the full population of individuals who consented to receive the supplementary questionnaire ($n = 13,328$), reweighted to account for differential completion (see *Response-weighting procedure* below).
+
+### Operationalisation of municipal health services
+
+Contact with municipal health services will be defined based on self-reported responses to the following items, all referring to the past five years:
+
+- **Referral from general practitioner:** "Has your healthcare provider referred you to a consultation or program in the municipality within the past 5 years?"
+- **Diet counselling:** "Within the past 5 years, have you been offered support to change dietary habits by the municipality?"
+- **Physical activity/exercise programme:** "Within the past 5 years, have you been offered support for physical activity and/or exercise by the municipality?"
+- **DSMP:** "Within the past 5 years, have you been offered support for managing your diabetes treatment by the municipality?"
+- **Mental health support:** "Within the past 5 years, have you been offered support for managing the psychological aspects of living with diabetes by the municipality?"
+
+For each item, respondents will be categorised using the following response options:
+
+- Yes, and I accepted the offer
+- Yes, but I did not accept the offer
+- No, but I contacted the municipality myself
+- No, but I would have liked the offer
+- No, I do not need it
+- Not relevant
+- Don't know
+
+### Response-weighting procedure
+
+Because the supplementary questionnaire ($n = 4,704$ completers) was not completed by everyone who consented to receive it ($n = 13,328$), response weights will be constructed to allow the observed sample to represent the full consented population.
+
+A response propensity model will be estimated among the $n = 13,328$ consented individuals, with a binary outcome of completion status (1 = completed supplementary questionnaire; 0 = consented but did not complete). Because self-reported variables from the primary HICD questionnaire are available for the entire consented pool (not only for supplementary-questionnaire completers), the propensity model will include both:
+
+- **Register-based variables:** age, sex, highest attained educational level, equivalized disposable household income, cohabitation/marital status, country of origin, diabetes duration, HbA1c, total cholesterol, comorbidity (NMI)
+- **Self-reported variables (from the primary questionnaire):** BMI, smoking status, physical activity level, personality traits, WHO-5, Health Literacy Questionnaire (HLQ), Problem Areas in Diabetes (PAID), SF-12, perceived disease burden
+
+Continuous predictors will be modelled flexibly (restricted cubic splines) where non-linear associations with response probability are plausible.
+
+Predicted probabilities from this model will be used to construct **stabilised inverse probability weights**: for each completer, weight = (marginal probability of completion in the consented pool) / (individual predicted probability of completion given covariates). The distribution of weights (mean, range, effective sample size) will be reported.
+
+Weighted analyses in this and subsequent components will use survey-weighted estimation so that variance estimates correctly reflect weighting.
+
+**SKAL MÅSKE STÅ ET ANDET STED?** This procedure adjusts only for the consent → completion step. It does not model attrition earlier in the recruitment cascade (invitation → primary questionnaire response → consent to supplementary questionnaire), which will be addressed descriptively in the attrition analysis (§3.2) rather than through weighting.
+
+### Statistical analysis
+
+Descriptive statistics will be used to summarise the data, reported separately for:
+
+1.  The **observed analysis sample** ($n = 4,704$), unweighted
+2.  The **response-weighted analysis sample**, applying the weights described above to represent the consented population ($n = 13,328$)
+
+For each municipal service item, the number and (weighted and unweighted) proportion of respondents in each response category will be reported. Results will be presented in tables, including overall distributions as well as stratified analyses by sex, employment status, and age group ($<65$ years vs. $\geq 65$ years).
+
+**Example of table structure**
+
+| Exercise programme | N (unweighted) | \% (unweighted) | \% (weighted) |
+|---------------------------------|-------------|-------------|-------------|
+| Yes, and I accepted the offer |  |  |  |
+| Yes, but I did not accept the offer |  |  |  |
+| No, but I contacted the municipality myself |  |  |  |
+| No, but I would have liked the offer |  |  |  |
+| No, I do not need it |  |  |  |
+| Not relevant |  |  |  |
+| Don't know |  |  |  |
+| Missing |  |  |  |
+| Total |  |  |  |
+
+## 3.2 Attrition analysis
+
+### Study design
+
+Cross-sectional attrition analysis based on linked survey and register data.
+
+### Objective
+
+To assess potential selection bias by comparing (a) the observed analysis sample and (b) the response-weighted analysis sample against the broader HICD population of individuals with type 2 diabetes, in order to inform the representativeness and generalisability of the study samples.
+
+### Study population
+
+- **Comparison group:** all individuals with type 2 diabetes in the HICD cohort ($n = 72,343$)
+- **Observed analysis sample:** individuals who completed the supplementary questionnaire ($n = 4,704$)
+- **Response-weighted analysis sample:** the observed sample reweighted (per §3.1) to represent all individuals who consented to the supplementary questionnaire ($n = 13,328$)
+
+Because register-based data are available for the entire HICD cohort ($n = 72,343$) whereas self-reported data are only available for those who answered a questionnaire, this comparison is restricted to register-based variables.
+
+### Variables included in the attrition analysis
+
+**Demographic:** Age, Sex, Country of origin **Socioeconomic:** Highest attained educational level, Equivalized disposable household income, Cohabitation/marital status **Clinical:** Diabetes duration, HbA1c, Total cholesterol, Comorbidity (NMI)
+
+Register-based variables are prioritised throughout to minimise the influence of missing self-reported data.
+
+### Statistical analysis
+
+Continuous variables will be presented as mean (SD) or median (IQR) depending on distribution; categorical variables as frequencies and percentages, for each of the three groups above.
+
+Two comparisons will be made:
+
+1.  Observed analysis sample ($n = 4,704$) vs. HICD population ($n = 72,343$)
+2.  Response-weighted analysis sample vs. HICD population
+
+**HVORDAN ANALYSERER VI BEDST "imbalance"??**
+
+- **Standardised mean differences (SMDs)** eller **t-test** (continuous)??
+
+- Chi-squared tests (categorical)
+
+## 3.3 Comparison of users and non-users of municipal health services
+
+### Study design
+
+Cross-sectional observational study based on survey data linked with register-based information. This component describes associations between characteristics and service utilisation, without assumptions of causality.
+
+### Objective
+
+To examine factors associated with utilisation of municipal health services, treated as the outcome, separately for each of the five service types described in §3.1 (referral, diet counselling, exercise programme, DSMP, mental health support).
+
+### Variable selection
+
+Candidate covariates were selected a priori based on the diabetes self-management literature and grouped into three conceptual domains considered relevant to service utilisation: socioeconomic resources, disease severity, and psychological resources. As this study describes associations rather than causal effects, variables were not selected to satisfy formal causal-identification criteria (e.g., a directed acyclic graph); all listed variables are entered as candidate covariates alongside age and sex in the models below.
+
+| Domain | Variable | Source |
+|----|----|----|
+| Socioeconomic resources | Country of origin | Register |
+|  | Highest attained educational level | Register |
+|  | Equivalized disposable household income | Register |
+|  | Cohabitation/marital status | Register |
+| Disease severity | Diabetes duration | Self-report |
+|  | HbA1c | Register |
+|  | Body mass index (BMI) | Self-report |
+|  | Smoking status | Self-report |
+|  | Physical activity level | Self-report |
+|  | Perceived disease burden | Self-report |
+|  | Total cholesterol | Register |
+|  | Comorbidity (Nordic Multimorbidity Index, NMI) | Register |
+| Psychological resources | Personality traits | Self-report |
+|  | Health literacy (HLQ) | Self-report |
+|  | Diabetes distress (PAID) | Self-report |
+|  | Quality of life / well-being (SF-12, WHO-5) | Self-report |
+
+**Covariates for adjustment (all models):** Age, Sex
+
+### Outcome measures
+
+Each of the five service items is dichotomised into *user* vs. *non-user*, using the coding rule below, applied separately and identically to each item. Respondents answering "Don't know" on a given item are excluded from the analysis of that item.
+
+| Response category                           | Coding   |
+|---------------------------------------------|----------|
+| Yes, and I accepted the offer               | 1        |
+| Yes, but I did not accept the offer         | 0        |
+| No, but I contacted the municipality myself | 1        |
+| No, but I would have liked the offer        | 0        |
+| No, I do not need it                        | 0        |
+| Not relevant                                | 0        |
+| Don't know                                  | Excluded |
+
+An alternative outcome definition based solely on *"Yes, but I did not accept the offer"* will be explored in sensitivity analyses for each service item.
+
+### Statistical analysis
+
+**Handling of continuous variables.** For NMI and the continuous psychosocial scores (WHO-5, SF-12, HLQ, PAID), functional form will first be examined using restricted cubic splines. Where no material deviation from linearity is identified, the variable will be dichotomised into high/low using \[validated cut-offs where available, otherwise cohort-specific medians\]; where non-linearity is identified, the variable will be retained in continuous (spline) form in the multivariable model.
+
+**Descriptive comparison.** For each of the five outcomes, baseline characteristics of users vs. non-users will be summarised (mean (SD)/median (IQR) for continuous; n (%) for categorical), compared using chi-squared tests (categorical) and t-tests/Wilcoxon tests (continuous), as appropriate.
+
+**Regression analysis.** For each of the five outcomes, separately:
+
+- **Univariable models:** crude and age-/sex-adjusted odds ratios (OR) for each candidate covariate.
+- **Multivariable model:** all candidate covariates entered simultaneously (mutually adjusted), together with age and sex.
+
+Each of the above will be run twice — once on the **observed analysis sample** (unweighted) and once on the **response-weighted analysis sample** (applying the weights from §3.1 via `svyglm()`) — yielding, per outcome: 1 unweighted univariable table, 1 unweighted multivariable table, 1 weighted univariable table, 1 weighted multivariable table.
+
+All associations will be reported as odds ratios with 95% confidence intervals. Statistical significance will be evaluated at α = 0.05 (two-sided). Analyses will be performed in R.
+
+## 3.4 Illustrative patient profiles
+
+### Objective
+
+To illustrate, using hypothetical patient profiles, how combinations of demographic, socioeconomic, clinical, and psychosocial characteristics are associated with the predicted probability of municipal health service utilisation. The profiles are intended solely as illustrative examples and do not represent actual study participants.
+
+### Method
+
+Because the strongest predictors cannot be identified before the multivariable models in §3.3 are fitted, this section pre-specifies the *procedure* rather than the specific variables:
+
+1.  Across the service-specific multivariable models from §3.3, we will identify the \[3-4\] covariates showing the most consistent and statistically strongest associations with utilisation (e.g., largest absolute standardised coefficient / OR furthest from 1, ranked across models).
+2.  Using these covariates, we will construct five hypothetical profiles arranged along a single gradient from "most favourable" (values associated with the highest predicted probability of use) to "least favourable" (values associated with the lowest predicted probability of use), with three intermediate combinations. All remaining covariates will be fixed at the sample mean (continuous) or modal/reference category (categorical).
+3.  For each profile, predicted probabilities of utilisation (with 95% confidence intervals) will be estimated from each of the five service-specific multivariable models.
+
+### Reporting
+
+Results will be presented in a table with personas as rows and the five service types as columns, each cell showing predicted probability (95% CI). Each persona will be accompanied by a short narrative description (e.g., "Persona 1: 45 years old, high income, high health literacy, low diabetes distress") generated directly from its specified covariate values.
