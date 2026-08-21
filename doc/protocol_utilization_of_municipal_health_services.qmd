@@ -1,0 +1,274 @@
+---
+title: "Utilization of Municipal Health Services Among People with Type 2 Diabetes: A Cross-Sectional, Register-Linked Study"
+author: "Jonas Munk Jensen"
+date: 21-08-2026
+format: html
+bibliography: references.bib
+csl: apa.csl
+editor: visual
+---
+
+TODO:
+
+- Lave et nyt flowchart. (Target population: T2D i regionen, mangler nye tal fra Kasper)
+
+
+# 1 Introduction
+
+## Prevalence and burden of type 2 diabetes
+
+The prevalence of type 2 diabetes (T2D) is increasing worldwide. In Denmark, the prevalence has increased from 260.000 in 2017 to 348.000 in the end of 2025 [@diabetestal]. Projections further indicate that the prevalence of T2D is expected to rise to 429.300 in 2030 [@Jensen2017]. T2D is associated with substantial morbidity and premature mortality, including increased risks of cardiovascular disease, chronic kidney disease, neuropathy, retinopathy, and several forms of cancer [@GBD2023; @einarson2018; @laurberg2024]. Beyond its physical health consequences, T2D is associated with substantial psychosocial burden, including diabetes-related emotional distress, reduced quality of life, and the ongoing demands of complex self-management [@perrin2017; @bailey2011; @ADA2025Standards]. These factors are well documented as barriers to treatment adherence and effective self-care, and are associated with suboptimal engagement in healthcare and poorer health outcomes [@gonzalez2008].
+
+## Use of municipal services
+
+Diabetes self-management programs (DSMPs) are considered a central component of T2D care, as they aim to support individuals in managing their disease in everyday life through education, behavioral support, and lifestyle interventions. In Denmark, responsibility for DSMPs lies within the regional healthcare system, while program delivery is primarily undertaken by the municipalities [@MarkleReid2018; @Miklavcic2020; @Kanaley2022; @Steinsbekk2012; @Murphy2017; @Johansen2017; @Umpierre2013; @Colberg2016; @OHagan2013; @DeNardi2018; @Ryan2020]. The recent Danish healthcare reform aims to create more uniform and accessible DSMPs across the country [@Sundhedsreform2024]. However, despite their widespread implementation, relatively little is known about the effectiveness of municipality-based DSMPs in Denmark.
+
+Furthermore, there is currently no national register that systematically tracks the utilization of municipal health services. As a result, knowledge remains limited regarding how many people with T2D make use of DSMPs and whether these services reach the individuals with the greatest need for support. In 2023, Diabetesforeningen conducted a survey among its members indicating that approximately 20% reported having been referred to municipal services, while a similar proportion reported unmet support needs [@Diabetesforeningen2023]. However, these findings may be affected by selection bias and may not reflect utilization patterns in the broader population of people living with T2D.
+
+In addition, practical barriers may further limit participation in DSMPs. Many programs are delivered during standard working hours, which may reduce accessibility for individuals who are still active in the workforce. This may particularly affect younger individuals diagnosed earlier in life, who may have competing work and family responsibilities.
+
+## Novelty and relevance
+
+The LIVING project was initiated in 2023 to investigate the effectiveness of three diabetes self-management programs (DSMPs) with increasing intensity: a short DSMP, a long DSMP, and a long DSMP combined with supervised high-intensity exercise training [@Jensen2025]. As part of this work, the present study examines the utilization of municipality-based diabetes support services among people with T2D.
+
+Current knowledge on the use of municipality-based DSMPs in Denmark is limited and primarily based on survey studies [@Diabetesforeningen2023]. While such studies provide valuable self-reported information, they are often unable to assess whether participants differ systematically from non-participants and the broader population of people with T2D. Consequently, it remains unclear whether municipal services reach those who may benefit most from them.
+
+By linking regional survey data with register-based demographic, socioeconomic, and clinical information, this study enables population-based analyses of service utilization, unmet need, and potential social inequalities in access to municipal support. Furthermore, the study applies an explicit attrition framework by comparing the study population with the broader regional population of individuals with T2D, thereby strengthening the assessment of generalizability and potential selection bias.
+
+The study will provide new evidence on who uses municipality-based DSMPs, who does not, and whether current services reach population groups with the greatest need for support. The findings may inform the planning and targeting of municipal diabetes services and contribute to ongoing efforts to improve equitable access to diabetes self-management support in Denmark.
+
+# 2 Health in Central Denmark (HICD) Cohort
+
+This is a cross-sectional study, combining regional survey data with nationwide register data from the Central Denmark Region.
+
+The HICD cohort is a research initiative established to investigate diabetes and its associated complications in the Central Denmark Region, which comprises approximately $n = 1.3 million$ residents. Using nationwide registry data and a predefined diabetes classification algorithm, individuals aged 18–75 years with prevalent diabetes were identified. In addition, a control group of equal size without diabetes was established by matching on age, sex, and municipality of residence.
+
+In 2024, a total of $n = 72,343$ individuals were living with T2D in the Central Denmark Region. As part of the HICD data collection, questionnaires were distributed in February 2024 to $n = ____$ individuals with T2D, of whom $n = 20,830$ responded. Respondents were subsequently asked for consent to receive a supplementary questionnaire regarding participation in municipal health services. A total of $n = 13,328$ individuals provided consent, and $n = 4,704$ completed the supplementary questionnaire.
+
+![](flow.png)
+
+# 3 Study Components
+
+All four components below are based on a cross-sectional design, linking survey and register-based data collected at a single time point.
+
+The study consists of four complementary components, structured to move from a *description* of service use, to an assessment of how *representative* that description is, to an identification of *who* is more or less likely to use services, and finally to an *illustration* of what that means in practice.
+
+1.  **Mapping of municipal health service utilization.** This component estimates the proportion of individuals with T2D who report having received each of the five municipal health services, both in the observed analysis sample ($n = 4,704$) and in a *response-weighted analysis sample*, in which respondents are reweighted to represent the full group of individuals with T2D who consented to receive the supplementary questionnaire ($n = 13,328$). Existing Danish estimates of municipal service use come from a single patient-organization survey, which likely over-represents already-engaged individuals [@Diabetesforeningen2023]. By linking survey data with register-based information across the full regional T2D population, this component provides the first population-anchored estimate of municipal service utilization, rather than one restricted to an already self-selected group.
+
+2.  **Attrition analysis.** This component compares the observed analysis sample and the response-weighted analysis sample with the broader HICD population of individuals with T2D ($n = 72,343$), using demographic, socioeconomic, and clinical register data available for the full cohort. Non-response to health surveys is rarely random, and prior evidence suggests certain groups — for example, older individuals or those with lower socioeconomic position — are systematically under-represented in survey-based samples [INDSÆT KILDE!!]. This component therefore tests how far the estimates from Component 1 can be generalized to the full regional T2D population.
+
+3.  **Comparison of users and non-users of municipal health services.** This component examines factors associated with utilization of each municipal health service, treated separately as five binary outcomes. Uni- and multivariable logistic regression models will estimate associations between each outcome and psychosocial, behavioral, socioeconomic, and clinical characteristics, including health literacy, well-being, diabetes distress, quality of life, perceived disease burden, comorbidity, and socioeconomic position, using both the observed and response-weighted analysis samples. While Component 1 describes *how many* individuals use municipal services, this component addresses the study's central question: *who* is reached and who is not. This makes it possible to assess whether services are reaching those with the greatest apparent need — for example, individuals with high diabetes distress, low health literacy, or lower socioeconomic position — or whether utilization instead reflects existing advantage, i.e., whether access is equitable.
+
+4.  **Illustrative patient profiles.** Based on the multivariable models from Component 3, predicted probabilities of municipal health service utilization will be estimated for 5 hypothetical patient profiles, constructed from the characteristics found to be most strongly associated with utilization. Regression coefficients from five separate models are not easily interpretable for a non-technical audience. Presenting findings through illustrative personas (e.g., "Anna, 45 years old, employed, with low health literacy and high diabetes distress") translates the statistical findings into concrete, relatable examples, making it easier for municipalities, regions, and health authorities to see how combinations of individual characteristics shape the likelihood of reaching municipal support. The personas are intended solely as illustrative examples and do not represent actual study participants.
+
+## 3.1 Mapping of municipal health service utilization
+
+### Objective
+
+To quantify the proportion of individuals with T2D who have been in contact with municipal health services, based on data from the supplementary HICD survey conducted in autumn 2024.
+
+### A priori hypothesis
+
+We hypothesize that the proportion of participants reporting contact with municipal health services will be comparable to previous survey findings, where approximately 20% reported having been referred to municipal services and a similar proportion indicated unmet needs [@Diabetesforeningen2023]. Furthermore, we hypothesize that the majority of respondents will report no perceived need for municipal health services.
+
+### Study population
+
+The *observed analysis sample* comprises adults aged 18–75 years with T2D who completed the supplementary HICD questionnaire in 2024 ($n = 4,704$).
+
+The *response-weighted analysis sample* represents the full population of individuals who consented to receive the supplementary questionnaire ($n = 13,328$), reweighted to account for differential completion (see *Response-weighting procedure* below).
+
+### Operationalization of municipal health services
+
+Contact with municipal health services will be defined based on self-reported responses to the following items, all referring to the past five years:
+
+- **Referral from general practitioner:** "Has your healthcare provider referred you to a consultation or program in the municipality within the past 5 years?"
+- **Diet counseling:** "Within the past 5 years, have you been offered support to change dietary habits by the municipality?"
+- **Physical activity/exercise program:** "Within the past 5 years, have you been offered support for physical activity and/or exercise by the municipality?"
+- **DSMP:** "Within the past 5 years, have you been offered support for managing your diabetes treatment by the municipality?"
+- **Mental health support:** "Within the past 5 years, have you been offered support for managing the psychological aspects of living with diabetes by the municipality?"
+
+For each item, respondents will be categorized using the following response options:
+
+- Yes, and I accepted the offer
+- Yes, but I did not accept the offer
+- No, but I contacted the municipality myself
+- No, but I would have liked the offer
+- No, I do not need it
+- Not relevant
+- Don't know
+
+### Response-weighting procedure
+
+Because the supplementary questionnaire ($n = 4,704$ completers) was not completed by everyone who consented to receive it ($n = 13,328$), response weights will be constructed to allow the observed sample to represent the full consented population.
+
+A response propensity model will be estimated among the $n = 13,328$ consented individuals, with a binary outcome of completion status (1 = completed supplementary questionnaire; 0 = consented but did not complete). Because self-reported variables from the primary HICD questionnaire are available for the entire consented pool (not only for supplementary-questionnaire completers), the propensity model will include both:
+
+- **Register-based variables:** age, sex, highest attained educational level, equivalized disposable household income, cohabitation/marital status, country of origin, diabetes duration, HbA1c, total cholesterol, comorbidity (NMI)
+- **Self-reported variables (from the primary questionnaire):** BMI, smoking status, physical activity level, personality traits, WHO-5, Health Literacy Questionnaire (HLQ), Problem Areas in Diabetes (PAID), SF-12, perceived disease burden
+
+Continuous predictors will be modeled flexibly (restricted cubic splines) where non-linear associations with response probability are plausible.
+
+Predicted probabilities from this model will be used to construct **stabilized inverse probability weights**: for each completer, weight = (marginal probability of completion in the consented pool) / (individual predicted probability of completion given covariates). The distribution of weights (mean, range, effective sample size) will be reported.
+
+Weighted analyses in this and subsequent components will use survey-weighted estimation so that variance estimates correctly reflect weighting.
+
+This procedure adjusts only for the consent → completion step. It does not model attrition earlier in the recruitment cascade (invitation → primary questionnaire response → consent to supplementary questionnaire), which will be addressed descriptively in the attrition analysis (§3.2) rather than through weighting.
+
+### Statistical analysis
+
+Descriptive statistics will be used to summarize the data, reported separately for:
+
+1.  The **observed analysis sample** ($n = 4,704$), unweighted
+2.  The **response-weighted analysis sample**, applying the weights described above to represent the consented population ($n = 13,328$)
+
+For each municipal service item, the number and (weighted and unweighted) proportion of respondents in each response category will be reported. Results will be presented in tables, including overall distributions as well as stratified analyses by sex, employment status, and age group ($<65$ years vs. $\geq 65$ years).
+
+**Example of table structure**
+
+| Exercise program | N (unweighted) | \% (unweighted) | \% (weighted) |
+|---------------------------------|-------------|-------------|-------------|
+| Yes, and I accepted the offer |  |  |  |
+| Yes, but I did not accept the offer |  |  |  |
+| No, but I contacted the municipality myself |  |  |  |
+| No, but I would have liked the offer |  |  |  |
+| No, I do not need it |  |  |  |
+| Not relevant |  |  |  |
+| Don't know |  |  |  |
+| Missing |  |  |  |
+| Total |  |  |  |
+
+## 3.2 Attrition analysis
+
+### Objective
+
+To assess potential selection bias by comparing (a) the observed analysis sample and (b) the response-weighted analysis sample against the broader HICD population of individuals with T2D, in order to inform the representativeness and generalizability of the study samples.
+
+### Study population
+
+- **Comparison group:** all individuals with T2D in the HICD cohort ($n = 72,343$)
+- **Observed analysis sample:** individuals who completed the supplementary questionnaire ($n = 4,704$)
+- **Response-weighted analysis sample:** the observed sample reweighted (per §3.1) to represent all individuals who consented to the supplementary questionnaire ($n = 13,328$)
+
+Because register-based data are available for the entire HICD cohort ($n = 72,343$) whereas self-reported data are only available for those who answered a questionnaire, this comparison is restricted to register-based variables.
+
+### Variables included in the attrition analysis
+
+- **Demographic:** Age, Sex, Country of origin 
+- **Socioeconomic:** Highest attained educational level, Equivalized disposable household income, Cohabitation/marital status 
+- **Clinical:** Diabetes duration, HbA1c, Total cholesterol, Comorbidity (NMI)
+
+Register-based variables are prioritized throughout to minimize the influence of missing self-reported data.
+
+### Statistical analysis
+
+Continuous variables will be presented as mean (SD) or median (IQR) depending on distribution; categorical variables as frequencies and percentages, for each of the three groups above.
+
+Two comparisons will be made:
+
+1.  Observed analysis sample ($n = 4,704$) vs. HICD population ($n = 72,343$)
+2.  Response-weighted analysis sample vs. HICD population
+
+:::{.callout-warning}
+**HVORDAN ANALYSERER VI BEDST "imbalance"??**
+
+- **Standardized mean differences (SMDs)** eller **t-test** (continuous)??
+- Chi-squared tests (categorical)
+:::
+
+## 3.3 Comparison of users and non-users of municipal health services
+
+This component describes associations between characteristics and service utilization, without assumptions of causality.
+
+### Objective
+
+To examine factors associated with utilization of municipal health services, treated as the outcome, separately for each of the five service types described in §3.1 (referral, diet counseling, exercise program, DSMP, mental health support).
+
+### Variable selection
+
+Candidate covariates were selected a priori based on the diabetes self-management literature and grouped into three conceptual domains considered relevant to service utilization: socioeconomic resources, disease severity, and psychological resources. As this study describes associations rather than causal effects, variables were not selected to satisfy formal causal-identification criteria (e.g., a directed acyclic graph); all listed variables are entered as candidate covariates alongside age and sex in the models below.
+
+| Domain | Variable | Source |
+|----|----|----|
+| Socioeconomic resources | Country of origin | Register |
+|  | Highest attained educational level | Register |
+|  | Equivalized disposable household income | Register |
+|  | Cohabitation/marital status | Register |
+| Disease severity | Diabetes duration | Self-report |
+|  | HbA1c | Register |
+|  | Body mass index (BMI) | Self-report |
+|  | Smoking status | Self-report |
+|  | Physical activity level | Self-report |
+|  | Perceived disease burden | Self-report |
+|  | Total cholesterol | Register |
+|  | Comorbidity (Nordic Multimorbidity Index, NMI) | Register |
+| Psychological resources | Personality traits | Self-report |
+|  | Health literacy (HLQ) | Self-report |
+|  | Diabetes distress (PAID) | Self-report |
+|  | Quality of life / well-being (SF-12, WHO-5) | Self-report |
+
+**Covariates for adjustment (all models):** Age, Sex
+
+### Outcome measures
+
+Each of the five service items is dichotomized into *user* vs. *non-user*, using the coding rule below, applied separately and identically to each item. Respondents answering "Don't know" on a given item are excluded from the analysis of that item.
+
+| Response category                           | Coding   |
+|---------------------------------------------|----------|
+| Yes, and I accepted the offer               | 1        |
+| Yes, but I did not accept the offer         | 0        |
+| No, but I contacted the municipality myself | 1        |
+| No, but I would have liked the offer        | 0        |
+| No, I do not need it                        | 0        |
+| Not relevant                                | 0        |
+| Don't know                                  | Excluded |
+
+An alternative outcome definition based solely on *"Yes, but I did not accept the offer"* will be explored in sensitivity analyses for each service item. This is done to explore if people who get offered a health service and do not accept it, vary from the rest of the sample population. 
+
+### Statistical analysis
+
+**Handling of continuous variables.** For NMI and the continuous psychosocial scores (WHO-5, SF-12, HLQ, PAID), functional form will first be examined using restricted cubic splines. Where no material deviation from linearity is identified, the variable will be dichotomized into high/low using validated cut-offs where available, otherwise cohort-specific medians; where non-linearity is identified, the variable will be retained in continuous (spline) form in the multivariable model.
+
+**Descriptive comparison.** For each of the five outcomes, baseline characteristics of users vs. non-users will be summarized (mean (SD)/median (IQR) for continuous; n (%) for categorical), compared using chi-squared tests (categorical) and t-tests/Wilcoxon tests (continuous), as appropriate.
+
+**Regression analysis.** For each of the five outcomes, separately:
+
+- **Univariable models:** crude and age-/sex-adjusted odds ratios (OR) for each candidate covariate.
+- **Multivariable model:** all candidate covariates entered simultaneously (mutually adjusted), together with age and sex.
+
+Each of the above will be run twice — once on the **observed analysis sample** (unweighted) and once on the **response-weighted analysis sample** (applying the weights from §3.1 — yielding, per outcome: 1 unweighted univariable table, 1 unweighted multivariable table, 1 weighted univariable table, 1 weighted multivariable table.
+
+All associations will be reported as odds ratios with 95% confidence intervals. Statistical significance will be evaluated at α = 0.05 (two-sided). Analyses will be performed in R.
+
+## 3.4 Illustrative patient profiles
+
+### Objective
+
+To illustrate, using hypothetical patient profiles, how combinations of demographic, socioeconomic, clinical, and psychosocial characteristics are associated with the predicted probability of municipal health service utilization. The profiles are intended solely as illustrative examples and do not represent actual study participants.
+
+### Method
+
+Because the strongest predictors cannot be identified before the multivariable models in §3.3 are fitted, this section pre-specifies the *procedure* rather than the specific variables:
+
+1.  Across the service-specific multivariable models from §3.3, we will identify the \[3-4\] covariates showing the most consistent and statistically strongest associations with utilization (e.g., largest absolute standardized coefficient / OR furthest from 1, ranked across models).
+2.  Using these covariates, we will construct five hypothetical profiles arranged along a single gradient from "most favorable" (values associated with the highest predicted probability of use) to "least favorable" (values associated with the lowest predicted probability of use), with three intermediate combinations. All remaining covariates will be fixed at the sample mean (continuous) or modal/reference category (categorical).
+3.  For each profile, predicted probabilities of utilization (with 95% confidence intervals) will be estimated from each of the five service-specific multivariable models.
+
+### Reporting
+
+Results will be presented in a table with personas as rows and the five service types as columns, each cell showing predicted probability (95% CI). Each persona will be accompanied by a short narrative description (e.g., "Persona 1: 45 years old, high income, high health literacy, low diabetes distress") generated directly from its specified covariate values.
+
+# 4 Time scale
+
+The analysis plan will be uploaded to Open Science Framework (OSF) for timestamping before beginning the analyses. The study will be performed in 2026 and 2027.
+
+# 5 Perspectives
+
+This project may contribute important knowledge for future planning and prioritization of municipality-based health services in Denmark. By providing population-based data on who participates in municipal services, and who does not, the project may help identify potential inequalities in access and utilization across demographic, socioeconomic, and clinical groups.
+
+The findings may support municipalities, regions, and national health authorities in evaluating whether current services adequately reach individuals with the greatest need for support. In addition, the project may provide evidence relevant to ongoing implementation of the Danish healthcare reform, including decisions regarding organization, accessibility, and allocation of resources within municipality-based diabetes care.
+
+More broadly, the project may contribute to the development of more targeted and equitable preventive health strategies for people living with T2D, with the potential to improve population health and reduce long-term healthcare costs.
+
+# 6 References
+
+See bibtex.qmd
