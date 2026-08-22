@@ -117,7 +117,7 @@ For each municipal service item, the number and (weighted and unweighted) propor
 **Example of table structure**
 
 | Exercise programme | N (unweighted) | \% (unweighted) | \% (weighted) |
-|-----------------------------|---------------|---------------|---------------|
+|----|----|----|----|
 | Yes, and I accepted the offer |  |  |  |
 | Yes, but I did not accept the offer |  |  |  |
 | No, but I contacted the municipality myself |  |  |  |

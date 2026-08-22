@@ -1,7 +1,7 @@
 ---
 title: "Utilization of Municipal Health Services Among People with Type 2 Diabetes: A Cross-Sectional, Register-Linked Study"
 author: "Jonas Munk Jensen"
-date: 21-08-2026
+date: 22-08-2026
 format: html
 bibliography: references.bib
 csl: apa.csl
@@ -10,7 +10,7 @@ editor: visual
 
 TODO:
 
-- Lave et nyt flowchart. (Target population: T2D i regionen, mangler nye tal fra Kasper)
+- Skriv til Kasper og få tal til flowchart
 
 
 # 1 Introduction
@@ -45,7 +45,56 @@ The HICD cohort is a research initiative established to investigate diabetes and
 
 In 2024, a total of $n = 72,343$ individuals were living with T2D in the Central Denmark Region. As part of the HICD data collection, questionnaires were distributed in February 2024 to $n = ____$ individuals with T2D, of whom $n = 20,830$ responded. Respondents were subsequently asked for consent to receive a supplementary questionnaire regarding participation in municipal health services. A total of $n = 13,328$ individuals provided consent, and $n = 4,704$ completed the supplementary questionnaire.
 
-![](flow.png)
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(DiagrammeR)
+
+flowchart <- grViz("
+digraph flowchart {
+
+  graph [layout = dot, rankdir = TB, nodesep = 0.6, ranksep = 0.35, fontname = Helvetica]
+  node  [shape = box, fontname = Helvetica, fontsize = 12, margin = \"0.25,0.18\", width = 4.2]
+  edge  [fontname = Helvetica, fontsize = 11]
+
+  target [label = <<B>Target population</B><BR/>Individuals with T2D, Central Denmark<BR/>Region, age 18&#8211;75 yr<BR/><B>n = 72,343</B>>]
+
+  distributed [label = <<B>Feb 2024</B><BR/><U>Questionnaire distributed</U><BR/><B>n = ____</B>>]
+
+  responders [label = <<U>Responders, questionnaire</U><BR/><B>n = 20,830</B>>]
+
+  consent [label = <<U>Consent to supplementary questionnaire</U><BR/><B>n = 13,328</B>>]
+
+  studygroup [label = <<B>Study group</B><BR/><U>Responders, supplementary questionnaire</U><BR/><B>n = 4,704</B>>]
+
+  participation [label = <<U>Participation</U><BR/>Attend municipal health services<BR/><B>n = ____</B>>]
+
+  nonparticipation [label = <<U>Non-participation</U><BR/>Do not attend municipal health services<BR/><B>n = ____</B>>]
+
+  # --- main recruitment chain ---
+  target -> distributed
+  distributed -> responders
+  responders -> consent
+  consent -> studygroup
+
+  # --- split into the two outcome groups (Component 3) ---
+  studygroup -> participation
+  studygroup -> nonparticipation
+
+  { rank = same; participation; nonparticipation }
+  participation -> nonparticipation [dir = both, label = 'Comparison', constraint = false]
+
+  # --- attrition analysis annotation (Component 2) ---
+  studygroup -> distributed [style = dashed, dir = back, constraint = false,
+                              label = 'Attrition\\nanalysis', labeldistance = 3]
+
+}
+")
+
+flowchart
+```
 
 # 3 Study Components
 
@@ -112,7 +161,7 @@ Predicted probabilities from this model will be used to construct **stabilized i
 
 Weighted analyses in this and subsequent components will use survey-weighted estimation so that variance estimates correctly reflect weighting.
 
-This procedure adjusts only for the consent → completion step. It does not model attrition earlier in the recruitment cascade (invitation → primary questionnaire response → consent to supplementary questionnaire), which will be addressed descriptively in the attrition analysis (§3.2) rather than through weighting.
+**SKAL MÅSKE STÅ ET ANDET STED?:** This procedure adjusts only for the consent → completion step. It does not model attrition earlier in the recruitment cascade (invitation → primary questionnaire response → consent to supplementary questionnaire), which will be addressed descriptively in the attrition analysis (§3.2) rather than through weighting.
 
 ### Statistical analysis
 
@@ -153,9 +202,7 @@ Because register-based data are available for the entire HICD cohort ($n = 72,34
 
 ### Variables included in the attrition analysis
 
-- **Demographic:** Age, Sex, Country of origin 
-- **Socioeconomic:** Highest attained educational level, Equivalized disposable household income, Cohabitation/marital status 
-- **Clinical:** Diabetes duration, HbA1c, Total cholesterol, Comorbidity (NMI)
+**Demographic:** Age, Sex, Country of origin **Socioeconomic:** Highest attained educational level, Equivalized disposable household income, Cohabitation/marital status **Clinical:** Diabetes duration, HbA1c, Total cholesterol, Comorbidity (NMI)
 
 Register-based variables are prioritized throughout to minimize the influence of missing self-reported data.
 
@@ -168,12 +215,11 @@ Two comparisons will be made:
 1.  Observed analysis sample ($n = 4,704$) vs. HICD population ($n = 72,343$)
 2.  Response-weighted analysis sample vs. HICD population
 
-:::{.callout-warning}
 **HVORDAN ANALYSERER VI BEDST "imbalance"??**
 
 - **Standardized mean differences (SMDs)** eller **t-test** (continuous)??
+
 - Chi-squared tests (categorical)
-:::
 
 ## 3.3 Comparison of users and non-users of municipal health services
 
@@ -222,7 +268,7 @@ Each of the five service items is dichotomized into *user* vs. *non-user*, using
 | Not relevant                                | 0        |
 | Don't know                                  | Excluded |
 
-An alternative outcome definition based solely on *"Yes, but I did not accept the offer"* will be explored in sensitivity analyses for each service item. This is done to explore if people who get offered a health service and do not accept it, vary from the rest of the sample population. 
+An alternative outcome definition based solely on *"Yes, but I did not accept the offer"* will be explored in sensitivity analyses for each service item.
 
 ### Statistical analysis
 
