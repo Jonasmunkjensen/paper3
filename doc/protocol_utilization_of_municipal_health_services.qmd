@@ -8,10 +8,14 @@ csl: apa.csl
 editor: visual
 ---
 
-TODO:
+::: {.callout-note}
+## TODO
 
-- Skriv til Kasper og få tal til flowchart
-
+- Rette flowchart når jeg har fået nye tal fra Kasper
+- gennemlæsning (Anette, Søren og Henrik)
+- Skrive alle medforfattere under "author"
+- Gå igennem dokument og rette participation/non-participation til user/non-user
+:::
 
 # 1 Introduction
 
@@ -21,7 +25,7 @@ The prevalence of type 2 diabetes (T2D) is increasing worldwide. In Denmark, the
 
 ## Use of municipal services
 
-Diabetes self-management programs (DSMPs) are considered a central component of T2D care, as they aim to support individuals in managing their disease in everyday life through education, behavioral support, and lifestyle interventions. In Denmark, responsibility for DSMPs lies within the regional healthcare system, while program delivery is primarily undertaken by the municipalities [@MarkleReid2018; @Miklavcic2020; @Kanaley2022; @Steinsbekk2012; @Murphy2017; @Johansen2017; @Umpierre2013; @Colberg2016; @OHagan2013; @DeNardi2018; @Ryan2020]. The recent Danish healthcare reform aims to create more uniform and accessible DSMPs across the country [@Sundhedsreform2024]. However, despite their widespread implementation, relatively little is known about the effectiveness of municipality-based DSMPs in Denmark.
+Diabetes self-management programs (DSMPs) are considered a central component of T2D care, as they aim to support individuals in managing their disease in everyday life through education, behavioral support, and lifestyle interventions [@MarkleReid2018; @Miklavcic2020; @Kanaley2022; @Steinsbekk2012; @Murphy2017; @Johansen2017; @Umpierre2013; @Colberg2016; @OHagan2013; @DeNardi2018; @Ryan2020].In Denmark, responsibility for DSMPs lies within the regional healthcare system, while program delivery is primarily undertaken by the municipalities. The recent Danish healthcare reform aims to create more uniform and accessible DSMPs across the country [@Sundhedsreform2024]. However, despite their widespread implementation, relatively little is known about the effectiveness of municipality-based DSMPs in Denmark.
 
 Furthermore, there is currently no national register that systematically tracks the utilization of municipal health services. As a result, knowledge remains limited regarding how many people with T2D make use of DSMPs and whether these services reach the individuals with the greatest need for support. In 2023, Diabetesforeningen conducted a survey among its members indicating that approximately 20% reported having been referred to municipal services, while a similar proportion reported unmet support needs [@Diabetesforeningen2023]. However, these findings may be affected by selection bias and may not reflect utilization patterns in the broader population of people living with T2D.
 
@@ -31,7 +35,7 @@ In addition, practical barriers may further limit participation in DSMPs. Many p
 
 The LIVING project was initiated in 2023 to investigate the effectiveness of three diabetes self-management programs (DSMPs) with increasing intensity: a short DSMP, a long DSMP, and a long DSMP combined with supervised high-intensity exercise training [@Jensen2025]. As part of this work, the present study examines the utilization of municipality-based diabetes support services among people with T2D.
 
-Current knowledge on the use of municipality-based DSMPs in Denmark is limited and primarily based on survey studies [@Diabetesforeningen2023]. While such studies provide valuable self-reported information, they are often unable to assess whether participants differ systematically from non-participants and the broader population of people with T2D. Consequently, it remains unclear whether municipal services reach those who may benefit most from them.
+Current knowledge on the use of municipality-based DSMPs in Denmark is limited and primarily based on survey studies [@Diabetesforeningen2023]. While such studies provide valuable self-reported information, they are often unable to assess whether users differ systematically from non-users and the broader population of people with T2D. Consequently, it remains unclear whether municipal services reach those who may benefit most from them.
 
 By linking regional survey data with register-based demographic, socioeconomic, and clinical information, this study enables population-based analyses of service utilization, unmet need, and potential social inequalities in access to municipal support. Furthermore, the study applies an explicit attrition framework by comparing the study population with the broader regional population of individuals with T2D, thereby strengthening the assessment of generalizability and potential selection bias.
 
@@ -69,9 +73,9 @@ digraph flowchart {
 
   studygroup [label = <<B>Study group</B><BR/><U>Responders, supplementary questionnaire</U><BR/><B>n = 4,704</B>>]
 
-  participation [label = <<U>Participation</U><BR/>Attend municipal health services<BR/><B>n = ____</B>>]
+  users [label = <<U>Users</U><BR/>Attend municipal health services<BR/><B>n = ?</B>>]
 
-  nonparticipation [label = <<U>Non-participation</U><BR/>Do not attend municipal health services<BR/><B>n = ____</B>>]
+  nonusers [label = <<U>Non-users</U><BR/>Do not attend municipal health services<BR/><B>n = ?</B>>]
 
   # --- main recruitment chain ---
   target -> distributed
@@ -80,11 +84,11 @@ digraph flowchart {
   consent -> studygroup
 
   # --- split into the two outcome groups (Component 3) ---
-  studygroup -> participation
-  studygroup -> nonparticipation
+  studygroup -> users
+  studygroup -> nonusers
 
   { rank = same; participation; nonparticipation }
-  participation -> nonparticipation [dir = both, label = 'Comparison', constraint = false]
+  users -> nonusers [dir = both, label = 'Comparison', constraint = false]
 
   # --- attrition analysis annotation (Component 2) ---
   studygroup -> distributed [style = dashed, dir = back, constraint = false,
@@ -161,7 +165,9 @@ Predicted probabilities from this model will be used to construct **stabilized i
 
 Weighted analyses in this and subsequent components will use survey-weighted estimation so that variance estimates correctly reflect weighting.
 
+::: {.callout-important}
 **SKAL MÅSKE STÅ ET ANDET STED?:** This procedure adjusts only for the consent → completion step. It does not model attrition earlier in the recruitment cascade (invitation → primary questionnaire response → consent to supplementary questionnaire), which will be addressed descriptively in the attrition analysis (§3.2) rather than through weighting.
+:::
 
 ### Statistical analysis
 
@@ -215,11 +221,12 @@ Two comparisons will be made:
 1.  Observed analysis sample ($n = 4,704$) vs. HICD population ($n = 72,343$)
 2.  Response-weighted analysis sample vs. HICD population
 
+::: {.callout-important}
+
 **HVORDAN ANALYSERER VI BEDST "imbalance"??**
-
 - **Standardized mean differences (SMDs)** eller **t-test** (continuous)??
-
 - Chi-squared tests (categorical)
+:::
 
 ## 3.3 Comparison of users and non-users of municipal health services
 
