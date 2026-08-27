@@ -8,11 +8,11 @@ csl: apa.csl
 editor: visual
 ---
 
-::: {.callout-note}
+::: callout-note
 ## TODO
 
 - Rette flowchart når jeg har fået nye tal fra Kasper
-- gennemlæsning (Anette, Søren og Henrik)
+- gennemlæsning (Anette, Søren, Kasper og Henrik)
 - Skrive alle medforfattere under "author"
 - Gå igennem dokument og rette participation/non-participation til user/non-user
 :::
@@ -108,7 +108,7 @@ The study consists of four complementary components, structured to move from a *
 
 1.  **Mapping of municipal health service utilization.** This component estimates the proportion of individuals with T2D who report having received each of the five municipal health services, both in the observed analysis sample ($n = 4,704$) and in a *response-weighted analysis sample*, in which respondents are reweighted to represent the full group of individuals with T2D who consented to receive the supplementary questionnaire ($n = 13,328$). Existing Danish estimates of municipal service use come from a single patient-organization survey, which likely over-represents already-engaged individuals [@Diabetesforeningen2023]. By linking survey data with register-based information across the full regional T2D population, this component provides the first population-anchored estimate of municipal service utilization, rather than one restricted to an already self-selected group.
 
-2.  **Attrition analysis.** This component compares the observed analysis sample and the response-weighted analysis sample with the broader HICD population of individuals with T2D ($n = 72,343$), using demographic, socioeconomic, and clinical register data available for the full cohort. Non-response to health surveys is rarely random, and prior evidence suggests certain groups — for example, older individuals or those with lower socioeconomic position — are systematically under-represented in survey-based samples [INDSÆT KILDE!!]. This component therefore tests how far the estimates from Component 1 can be generalized to the full regional T2D population.
+2.  **Attrition analysis.** This component compares the observed analysis sample and the response-weighted analysis sample with the broader HICD population of individuals with T2D ($n = 72,343$), using demographic, socioeconomic, and clinical register data available for the full cohort. Non-response to health surveys is rarely random, and prior evidence suggests certain groups — for example, older individuals or those with lower socioeconomic position — are systematically under-represented in survey-based samples \[JEG MANGLER EN KILDE HER - nogle ideer??\]. This component therefore tests how far the estimates from Component 1 can be generalized to the full regional T2D population.
 
 3.  **Comparison of users and non-users of municipal health services.** This component examines factors associated with utilization of each municipal health service, treated separately as five binary outcomes. Uni- and multivariable logistic regression models will estimate associations between each outcome and psychosocial, behavioral, socioeconomic, and clinical characteristics, including health literacy, well-being, diabetes distress, quality of life, perceived disease burden, comorbidity, and socioeconomic position, using both the observed and response-weighted analysis samples. While Component 1 describes *how many* individuals use municipal services, this component addresses the study's central question: *who* is reached and who is not. This makes it possible to assess whether services are reaching those with the greatest apparent need — for example, individuals with high diabetes distress, low health literacy, or lower socioeconomic position — or whether utilization instead reflects existing advantage, i.e., whether access is equitable.
 
@@ -165,7 +165,7 @@ Predicted probabilities from this model will be used to construct **stabilized i
 
 Weighted analyses in this and subsequent components will use survey-weighted estimation so that variance estimates correctly reflect weighting.
 
-::: {.callout-important}
+::: callout-important
 **SKAL MÅSKE STÅ ET ANDET STED?:** This procedure adjusts only for the consent → completion step. It does not model attrition earlier in the recruitment cascade (invitation → primary questionnaire response → consent to supplementary questionnaire), which will be addressed descriptively in the attrition analysis (§3.2) rather than through weighting.
 :::
 
@@ -181,7 +181,7 @@ For each municipal service item, the number and (weighted and unweighted) propor
 **Example of table structure**
 
 | Exercise program | N (unweighted) | \% (unweighted) | \% (weighted) |
-|---------------------------------|-------------|-------------|-------------|
+|-----------------------------|---------------|---------------|---------------|
 | Yes, and I accepted the offer |  |  |  |
 | Yes, but I did not accept the offer |  |  |  |
 | No, but I contacted the municipality myself |  |  |  |
@@ -221,11 +221,8 @@ Two comparisons will be made:
 1.  Observed analysis sample ($n = 4,704$) vs. HICD population ($n = 72,343$)
 2.  Response-weighted analysis sample vs. HICD population
 
-::: {.callout-important}
-
-**HVORDAN ANALYSERER VI BEDST "imbalance"??**
-- **Standardized mean differences (SMDs)** eller **t-test** (continuous)??
-- Chi-squared tests (categorical)
+::: callout-important
+**HVORDAN ANALYSERER VI BEDST "imbalance"??** - **Standardized mean differences (SMDs)** eller **t-test** (continuous)?? - Chi-squared tests (categorical)
 :::
 
 ## 3.3 Comparison of users and non-users of municipal health services
