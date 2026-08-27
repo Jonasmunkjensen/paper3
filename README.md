@@ -130,11 +130,6 @@ The repository is organized to separate data preparation, analysis, and reportin
 │   ├── 07_users_vs_nonusers.R
 │   └── 08_patient_profiles.R
 │
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── derived/
-│
 ├── output/
 │   ├── tables/
 │   └── figures/
@@ -144,7 +139,7 @@ The repository is organized to separate data preparation, analysis, and reportin
     └── references.bib
 ```
 
-> **Note:** Raw study data are not included in this repository due to data protection and research governance requirements.
+> **Note:** data are not included in this repository due to data protection and research governance requirements.
 
 ## Reproducibility
 
@@ -173,6 +168,4 @@ A citation for the study will be added once the manuscript has been published.
 ## Contact
 
 **Jonas Munk Jensen**
-Aarhus University / Steno Diabetes Center Aarhus
-
-For questions regarding the study, analysis plan, or repository, please contact the study team.
+Aarhus University / Steno Diabetes Center Aarhus / Aarhus University
