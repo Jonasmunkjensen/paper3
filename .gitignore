@@ -1,4 +1,62 @@
-.Rproj.user
+
+gamle/
+
+# =========================
+# Data
+# =========================
+
+# Raw and processed research data
+data/raw/
+data/processed/
+
+# Local/temporary data
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.rds
+*.RData
+
+
+# =========================
+# R / RStudio
+# =========================
+
+# RStudio project files
+.Rproj.user/
 .Rhistory
 .RData
 .Ruserdata
+
+
+# =========================
+# Quarto
+# =========================
+
+# Quarto cache
+*_cache/
+.quarto/
+
+# Rendered documents
+*.html
+*.pdf
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
