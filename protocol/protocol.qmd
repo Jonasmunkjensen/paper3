@@ -21,15 +21,25 @@ editor: visual
 
 ## Prevalence and burden of type 2 diabetes
 
-The prevalence of type 2 diabetes (T2D) is increasing worldwide. In Denmark, the prevalence has increased from 260.000 in 2017 to 348.000 in the end of 2025 [@Diabetestal]. Projections further indicate that the prevalence of T2D is expected to rise to 429.300 in 2030 [@Jensen2017]. T2D is associated with substantial morbidity and premature mortality, including increased risks of cardiovascular disease, chronic kidney disease, neuropathy, retinopathy, and several forms of cancer [@GBD2023; @Einarson2018; @Laurberg2024]. Beyond its physical health consequences, T2D is associated with substantial psychosocial burden, including diabetes-related emotional distress, reduced quality of life, and the ongoing demands of complex self-management [@Perrin2017; @Bailey2011; @ADA2025Standards]. These factors are well documented as barriers to treatment adherence and effective self-care, and are associated with suboptimal engagement in healthcare and poorer health outcomes [@Gonzalez2008].
+<!--# Jeg savner i dette afsnit, at du også siger noget om, at prævalensen især stiger pga faldende mortalitet. Det kan betyde, at der er en god udvikling i gang allerede, men også at den er skævt fordelt: mortalitet falder for de fleste, men der en gruppe af ekstra udsatte, som ikke nås med de nuværende tiltag. -->
+
+The prevalence of type 2 diabetes (T2D) is increasing worldwide. In Denmark, the prevalence has increased from 260.000 in 2017 to 348.000 at the end of 2025 [@Diabetestal]. Projections indicate that the prevalence of T2D is expected to continue rising to 429.300 in 2030 [@Jensen2017]. T2D is associated with substantial morbidity and premature mortality, including increased risks of cardiovascular disease, chronic kidney disease, neuropathy, retinopathy, and several forms of cancer [@GBD2023; @Einarson2018; @Laurberg2024]. Beyond its physical health consequences, T2D is associated with substantial psychosocial burden, including diabetes-related emotional distress, reduced quality of life, and the ongoing demands of complex self-management [@Perrin2017; @Bailey2011; @ADA2025Standards]. These factors are well documented as barriers to treatment adherence and effective self-care, and are associated with suboptimal engagement in healthcare and poorer health outcomes [@Gonzalez2008].
+
+<!--# Du beskriver egentlig her en selvforstærkende spiral af dårligdomme og det kan du måske gøre eksplicit. På den måde vil det stå endnu tydeligere, at der er værdi ved at bryde spiralen. -->\
 
 ## Use of municipal services
 
-Diabetes self-management programs (DSMPs) are considered a central component of T2D care, as they aim to support individuals in managing their disease in everyday life through education, behavioral support, and lifestyle interventions [@MarkleReid2018; @Miklavcic2020; @Kanaley2022; @Steinsbekk2012; @Murphy2017; @Johansen2017; @Umpierre2013; @Colberg2016; @OHagan2013; @DeNardi2018; @Ryan2020].In Denmark, responsibility for DSMPs lies within the regional healthcare system, while program delivery is primarily undertaken by the municipalities. The recent Danish healthcare reform aims to create more uniform and accessible DSMPs across the country [@Sundhedsreform2024]. However, despite their widespread implementation, relatively little is known about the effectiveness of municipality-based DSMPs in Denmark.
+Diabetes self-management programs (DSMPs) are considered a central component of T2D care, as they aim to support individuals in managing their disease in everyday life through education, behavioral support, and lifestyle interventions [@MarkleReid2018; @Miklavcic2020; @Kanaley2022; @Steinsbekk2012; @Murphy2017; @Johansen2017; @Umpierre2013; @Colberg2016; @OHagan2013; @DeNardi2018; @Ryan2020]. In Denmark, responsibility for DSMPs lies within the regional healthcare system, while program delivery is primarily undertaken by the municipalities. The recent Danish healthcare reform aims to create more uniform and accessible DSMPs across the country [@Sundhedsreform2024]. However, despite their widespread implementation, relatively little is known about the effectiveness of municipality-based DSMPs in Denmark.
 
-Furthermore, there is currently no national register that systematically tracks the utilization of municipal health services. As a result, knowledge remains limited regarding how many people with T2D make use of DSMPs and whether these services reach the individuals with the greatest need for support. In 2023, Diabetesforeningen conducted a survey among its members indicating that approximately 20% reported having been referred to municipal services, while a similar proportion reported unmet support needs [@Diabetesforeningen2023]. However, these findings may be affected by selection bias and may not reflect utilization patterns in the broader population of people living with T2D.
+Furthermore, there is currently no national register that systematically tracks the utilization of municipal health services. As a result, knowledge remains limited regarding how many people with T2D make use of DSMPs and whether these services reach the individuals with the greatest need for support. In 2023, Diabetesforeningen conducted a survey among its members where approximately 20% reported having been referred to municipal services, while a similar proportion reported having unmet support needs [@Diabetesforeningen2023]. However, these findings may be affected by \
+<!--# overvej: måske mere præcist med non-response bias? -->\
+selection bias and may not reflect utilization patterns in the broader population of people living with T2D.
 
-In addition, practical barriers may further limit participation in DSMPs. Many programs are delivered during standard working hours, which may reduce accessibility for individuals who are still active in the workforce. This may particularly affect younger individuals diagnosed earlier in life, who may have competing work and family responsibilities.
+In addition \
+<!--# Er det flg ikke snarere en forklaring på, hvorfor få bruger tilbuddene, fremfor en yderligere (additional) forklaring? -->\
+, practical barriers may further limit participation in DSMPs. Many programs are delivered during standard working hours, which may reduce accessibility for individuals who are still active in the workforce. \
+<!--# den flg sætning er lidt en gentagelse - tilføj det med de unge i sætninen før. -->\
+This may particularly affect younger individuals diagnosed earlier in life, who may have competing work and family responsibilities.
 
 ## Novelty and relevance
 
@@ -37,6 +47,7 @@ The LIVING project was initiated in 2023 to investigate the effectiveness of thr
 
 Current knowledge on the use of municipality-based DSMPs in Denmark is limited and primarily based on survey studies [@Diabetesforeningen2023]. While such studies provide valuable self-reported information, they are often unable to assess whether users differ systematically from non-users and the broader population of people with T2D. Consequently, it remains unclear whether municipal services reach those who may benefit most from them.
 
+<!--# Det følgende lyder lidt for meget som noget, der er taget fra en ansøgning (fx ordet enabling), ditto for det følgende afsnit. -->\
 By linking regional survey data with register-based demographic, socioeconomic, and clinical information, this study enables population-based analyses of service utilization, unmet need, and potential social inequalities in access to municipal support. Furthermore, the study applies an explicit attrition framework by comparing the study population with the broader regional population of individuals with T2D, thereby strengthening the assessment of generalizability and potential selection bias.
 
 The study will provide new evidence on who uses municipality-based DSMPs, who does not, and whether current services reach population groups with the greatest need for support. The findings may inform the planning and targeting of municipal diabetes services and contribute to ongoing efforts to improve equitable access to diabetes self-management support in Denmark.
@@ -47,7 +58,9 @@ This is a cross-sectional study, combining regional survey data with nationwide 
 
 The HICD cohort is a research initiative established to investigate diabetes and its associated complications in the Central Denmark Region, which comprises approximately $n = 1.3 million$ residents. Using nationwide registry data and a predefined diabetes classification algorithm, individuals aged 18–75 years with prevalent diabetes were identified. In addition, a control group of equal size without diabetes was established by matching on age, sex, and municipality of residence.
 
-In 2024, a total of $n = 72,343$ individuals were living with T2D in the Central Denmark Region. As part of the HICD data collection, questionnaires were distributed in February 2024 to $n = ____$ individuals with T2D, of whom $n = 20,830$ responded. Respondents were subsequently asked for consent to receive a supplementary questionnaire regarding participation in municipal health services. A total of $n = 13,328$ individuals provided consent, and $n = 4,704$ completed the supplementary questionnaire.
+In 2024, a total of $n = 72,343$ individuals were living with T2D in the Central Denmark Region. As part of the HICD data collection, questionnaires were distributed in February 2024 to $n = ____$ individuals with T2D, of whom $n = 20,830$ responded. \
+<!--# Kun personer med T2D blev inviteret for det følgende? -->\
+Respondents were subsequently asked for consent to receive a supplementary questionnaire regarding participation in municipal health services. A total of $n = 13,328$ individuals provided consent, and $n = 4,704$ completed the supplementary questionnaire.
 
 ```{r}
 #| echo: false
@@ -102,11 +115,15 @@ flowchart
 
 # 3 Study Components
 
+<!--# overvej at slette denne sætning - står der ikke bare det samme som i den følgende? -->\
 All four components below are based on a cross-sectional design, linking survey and register-based data collected at a single time point.
 
+<!--# Jeg læser det følgende som noget hvor AI forklarer strukturen, hvilket egner sig mindre godt til at forklare studiet for læseren af protokollen. -->\
 The study consists of four complementary components, structured to move from a *description* of service use, to an assessment of how *representative* that description is, to an identification of *who* is more or less likely to use services, and finally to an *illustration* of what that means in practice.
 
-1.  **Mapping of municipal health service utilization.** This component estimates the proportion of individuals with T2D who report having received each of the five municipal health services, both in the observed analysis sample ($n = 4,704$) and in a *response-weighted analysis sample*, in which respondents are reweighted to represent the full group of individuals with T2D who consented to receive the supplementary questionnaire ($n = 13,328$). Existing Danish estimates of municipal service use come from a single patient-organization survey, which likely over-represents already-engaged individuals [@Diabetesforeningen2023]. By linking survey data with register-based information across the full regional T2D population, this component provides the first population-anchored estimate of municipal service utilization, rather than one restricted to an already self-selected group.
+1.  **Mapping of municipal health service utilization.** This component estimates the proportion of individuals with T2D who report having received each of the five municipal health services, both in the observed analysis sample ($n = 4,704$) and in a *response-weighted analysis sample*, in which respondents are reweighted to represent the full group of individuals with T2D who consented to receive the supplementary questionnaire ($n = 13,328$). Existing Danish estimates of municipal service use come from a single patient-organization survey, which likely over-represents already-engaged individuals [@Diabetesforeningen2023]. \
+    <!--# Det følgende er igen skrevet som til en ansøgning, ikke en protokol. -->\
+    By linking survey data with register-based information across the full regional T2D population, this component provides the first population-anchored estimate of municipal service utilization, rather than one restricted to an already self-selected group.
 
 2.  **Attrition analysis.** This component compares the observed analysis sample and the response-weighted analysis sample with the broader HICD population of individuals with T2D ($n = 72,343$), using demographic, socioeconomic, and clinical register data available for the full cohort. Non-response to health surveys is rarely random, and prior evidence suggests certain groups — for example, older individuals or those with lower socioeconomic position — are systematically under-represented in survey-based samples \[JEG MANGLER EN KILDE HER - nogle ideer??\]. This component therefore tests how far the estimates from Component 1 can be generalized to the full regional T2D population.
 
@@ -181,7 +198,7 @@ For each municipal service item, the number and (weighted and unweighted) propor
 **Example of table structure**
 
 | Exercise program | N (unweighted) | \% (unweighted) | \% (weighted) |
-|-----------------------------|---------------|---------------|---------------|
+|-----------------------|-----------------|-----------------|-----------------|
 | Yes, and I accepted the offer |  |  |  |
 | Yes, but I did not accept the offer |  |  |  |
 | No, but I contacted the municipality myself |  |  |  |
@@ -224,6 +241,8 @@ Two comparisons will be made:
 ::: callout-important
 **HVORDAN ANALYSERER VI BEDST "imbalance"??** - **Standardized mean differences (SMDs)** eller **t-test** (continuous)?? - Chi-squared tests (categorical)
 :::
+
+<!--# SMD for kontinuert og chi-squared for kategoriske er de to defaults. -->
 
 ## 3.3 Comparison of users and non-users of municipal health services
 
@@ -276,13 +295,16 @@ An alternative outcome definition based solely on *"Yes, but I did not accept th
 
 ### Statistical analysis
 
-**Handling of continuous variables.** For NMI and the continuous psychosocial scores (WHO-5, SF-12, HLQ, PAID), functional form will first be examined using restricted cubic splines. Where no material deviation from linearity is identified, the variable will be dichotomized into high/low using validated cut-offs where available, otherwise cohort-specific medians; where non-linearity is identified, the variable will be retained in continuous (spline) form in the multivariable model.
+**Handling of continuous variables.** For NMI and the continuous psychosocial scores (WHO-5, SF-12, HLQ, PAID), functional form will first be examined using restricted cubic splines. \
+<!--# Jeg synes ikke linearitet er et argument for dikotomisering. Hvis vi vil kategorisere (herunder dikotomisere) handler det meget mere om formidling af resultaterne. -->\
+Where no material deviation from linearity is identified, the variable will be dichotomized into high/low using validated cut-offs where available, otherwise cohort-specific medians; where non-linearity is identified, the variable will be retained in continuous (spline) form in the multivariable model.
 
 **Descriptive comparison.** For each of the five outcomes, baseline characteristics of users vs. non-users will be summarized (mean (SD)/median (IQR) for continuous; n (%) for categorical), compared using chi-squared tests (categorical) and t-tests/Wilcoxon tests (continuous), as appropriate.
 
 **Regression analysis.** For each of the five outcomes, separately:
 
-- **Univariable models:** crude and age-/sex-adjusted odds ratios (OR) for each candidate covariate.
+- **Univariable models:** crude and age-/sex-adjusted odds ratios (OR) for each candidate covariate.\
+  <!--# Hvis der estimeres OR vha logistisk regression her skal det vel også stå nedenfor. -->
 - **Multivariable model:** all candidate covariates entered simultaneously (mutually adjusted), together with age and sex.
 
 Each of the above will be run twice — once on the **observed analysis sample** (unweighted) and once on the **response-weighted analysis sample** (applying the weights from §3.1 — yielding, per outcome: 1 unweighted univariable table, 1 unweighted multivariable table, 1 weighted univariable table, 1 weighted multivariable table.
